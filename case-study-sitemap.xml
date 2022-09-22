@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//cms.scantrust.de/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/case-studies/falschungssichere-etiketten-fur-flaschen-und-sichere-qr-codes-zum-schutz-vor-falschungen/</loc>
-		<lastmod>2022-09-06T14:48:57+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/ihealth-scantrust-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/losung-fur-produktschutz-mit-qr-codes-fur-nrg-windgerate/</loc>
-		<lastmod>2022-09-06T14:51:49+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/NRG-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/falschungssicherheit-und-ruckverfolgbarkeit-der-produkte-fur-baias-wine/</loc>
-		<lastmod>2022-09-06T15:06:31+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/baias-wines-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/falschungssichere-steuermarken-fur-das-nationale-saatgutinstitut-inase-in-argentinien-fallstudie-von-scantrust/</loc>
-		<lastmod>2022-09-06T15:15:38+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/INASE-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/anti-counterfeiting-fur-yogamatten/</loc>
-		<lastmod>2022-09-06T15:24:28+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/Liforme-scantrust-sq.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/qr-codes-fur-gvo-kennzeichnung-auf-ferrara-sussigkeiten/</loc>
-		<lastmod>2022-09-06T15:25:14+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/Ferrara-Scantrust-0.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/falschungssichere-verpackungen-und-digitale-datenblatter-fur-akzonobel-protective-coatings/</loc>
-		<lastmod>2022-09-06T15:27:22+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/akzonobel-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/informationen-zum-maschinenteil-via-qr-codes-fur-bhs-corrugated/</loc>
-		<lastmod>2022-09-06T15:37:34+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/BHS-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/falschungsbekampfung-fur-duesberg-medizinische-handschuhe-fall-studie/</loc>
-		<lastmod>2022-09-06T15:38:33+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/duesberg-scantrust-2.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/falschungsschutz-mit-sicheren-qr-codes-fur-exxonmobil-motorol-fallstudie-scantrust/</loc>
-		<lastmod>2022-09-06T15:39:34+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/exxonm-BProtect-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/steigerung-des-umsatzes-und-der-kundenbindung-bei-exxonmobil-fallstudie-scantrust/</loc>
-		<lastmod>2022-09-06T15:41:26+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/07/exxonm-LOYAL-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>/case-studies/qr-codes-fur-marketing-campaigns-wie-isdin-skincare-verwendet-connected-packaging/</loc>
-		<lastmod>2022-09-06T15:48:21+00:00</lastmod>
+		<lastmod>2022-09-22T10:36:59+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2022/07/ISDIN-scantrust-1.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
+		<loc>/case-studies/steigerung-des-umsatzes-und-der-kundenbindung-bei-exxonmobil-fallstudie-scantrust/</loc>
+		<lastmod>2022-09-22T10:37:59+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/exxonm-LOYAL-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/falschungsschutz-mit-sicheren-qr-codes-fur-exxonmobil-motorol-fallstudie-scantrust/</loc>
+		<lastmod>2022-09-22T10:39:10+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/exxonm-BProtect-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/falschungsbekampfung-fur-duesberg-medizinische-handschuhe-fall-studie/</loc>
+		<lastmod>2022-09-22T10:39:59+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/duesberg-scantrust-2.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/informationen-zum-maschinenteil-via-qr-codes-fur-bhs-corrugated/</loc>
+		<lastmod>2022-09-22T10:41:05+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/BHS-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/falschungssichere-verpackungen-und-digitale-datenblatter-fur-akzonobel-protective-coatings/</loc>
+		<lastmod>2022-09-22T10:42:32+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/akzonobel-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/qr-codes-fur-gvo-kennzeichnung-auf-ferrara-sussigkeiten/</loc>
+		<lastmod>2022-09-22T11:23:35+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/Ferrara-Scantrust-0.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/anti-counterfeiting-fur-yogamatten/</loc>
+		<lastmod>2022-09-22T11:24:12+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/Liforme-scantrust-sq.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/falschungssichere-steuermarken-fur-das-nationale-saatgutinstitut-inase-in-argentinien-fallstudie-von-scantrust/</loc>
+		<lastmod>2022-09-22T11:26:51+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/INASE-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/falschungssicherheit-und-ruckverfolgbarkeit-der-produkte-fur-baias-wine/</loc>
+		<lastmod>2022-09-22T11:28:02+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/baias-wines-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/losung-fur-produktschutz-mit-qr-codes-fur-nrg-windgerate/</loc>
+		<lastmod>2022-09-22T11:31:34+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/NRG-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/falschungssichere-etiketten-fur-flaschen-und-sichere-qr-codes-zum-schutz-vor-falschungen/</loc>
+		<lastmod>2022-09-22T11:32:42+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/07/ihealth-scantrust-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
+		<lastmod>2022-09-22T11:34:37+00:00</lastmod>
+		<image:image>
+			<image:loc>/wp-content/uploads/2022/08/Varta-scantrust.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>/case-studies/qr-code-track-and-trace-mit-anti-counterfeit-packaging-fur-remy-cointreau/</loc>
-		<lastmod>2022-09-06T15:52:25+00:00</lastmod>
+		<lastmod>2022-09-22T11:35:40+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2022/05/remy-cointreau-track-and-trace-anti-counterfeiting.jpeg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>/case-studies/anti-counterfeiting-fur-dupont-wasserfilter-scantrust-fallstudie/</loc>
-		<lastmod>2022-09-06T15:54:32+00:00</lastmod>
+		<lastmod>2022-09-22T11:41:41+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2022/07/Dupont-scantrust.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>/case-studies/brand-loyalty-mit-connected-packaging-fur-knorr/</loc>
-		<lastmod>2022-09-06T15:55:49+00:00</lastmod>
+		<lastmod>2022-09-22T11:42:46+00:00</lastmod>
 		<image:image>
 			<image:loc>/wp-content/uploads/2022/07/knorr-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
-		<lastmod>2022-09-15T07:38:44+00:00</lastmod>
-		<image:image>
-			<image:loc>/wp-content/uploads/2022/08/Varta-scantrust.jpeg</image:loc>
 		</image:image>
 	</url>
 </urlset>
