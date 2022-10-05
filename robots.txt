@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://www.scantrust.de/sitemap_index.xml
