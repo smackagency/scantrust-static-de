@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//cms.scantrust.de/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/</loc>
+		<loc>https://www.scantrust.de/</loc>
 		<lastmod>2022-09-22T10:16:02+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/blog/</loc>
+		<loc>https://www.scantrust.de/blog/</loc>
 		<lastmod>2022-05-05T13:38:14+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/privacy-policy/</loc>
+		<loc>https://www.scantrust.de/privacy-policy/</loc>
 		<lastmod>2022-05-05T15:08:23+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/terms/</loc>
+		<loc>https://www.scantrust.de/terms/</loc>
 		<lastmod>2022-05-05T15:11:41+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/case-studies/</loc>
+		<loc>https://www.scantrust.de/case-studies/</loc>
 		<lastmod>2022-05-06T13:15:38+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/scan-map/</loc>
+		<loc>https://www.scantrust.de/scan-map/</loc>
 		<lastmod>2022-07-14T09:33:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/uber-uns/</loc>
+		<loc>https://www.scantrust.de/uber-uns/</loc>
 		<lastmod>2022-09-14T12:41:51+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/product-digital-identity-secure-qr-code/</loc>
+		<loc>https://www.scantrust.de/product-digital-identity-secure-qr-code/</loc>
 		<lastmod>2022-09-22T10:19:48+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/anti-counterfeit-packaging/</loc>
+		<loc>https://www.scantrust.de/anti-counterfeit-packaging/</loc>
 		<lastmod>2022-09-22T10:25:56+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/supply-chain-traceability-solutions/</loc>
+		<loc>https://www.scantrust.de/supply-chain-traceability-solutions/</loc>
 		<lastmod>2022-09-22T10:31:44+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/enterprise-qr-product-packaging-solutions/</loc>
+		<loc>https://www.scantrust.de/enterprise-qr-product-packaging-solutions/</loc>
 		<lastmod>2022-09-22T10:34:05+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/request-a-demo/</loc>
+		<loc>https://www.scantrust.de/request-a-demo/</loc>
 		<lastmod>2022-10-07T17:56:41+00:00</lastmod>
 	</url>
 </urlset>
