@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//cms.scantrust.de/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>/industry/automobilindustrie/</loc>
+		<loc>https://www.scantrust.de/industry/automobilindustrie/</loc>
 		<lastmod>2022-10-03T09:22:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/industry/cpg/</loc>
+		<loc>https://www.scantrust.de/industry/cpg/</loc>
 		<lastmod>2022-10-03T09:23:36+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/industry/essen-und-getranke/</loc>
+		<loc>https://www.scantrust.de/industry/essen-und-getranke/</loc>
 		<lastmod>2022-10-03T09:23:10+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/industry/industrie/</loc>
+		<loc>https://www.scantrust.de/industry/industrie/</loc>
 		<lastmod>2022-10-03T09:23:19+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/industry/kosmetik/</loc>
+		<loc>https://www.scantrust.de/industry/kosmetik/</loc>
 		<lastmod>2022-10-03T09:22:20+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/industry/regierung/</loc>
+		<loc>https://www.scantrust.de/industry/regierung/</loc>
 		<lastmod>2022-10-03T09:10:17+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/industry/schmiermittel/</loc>
+		<loc>https://www.scantrust.de/industry/schmiermittel/</loc>
 		<lastmod>2022-10-03T09:22:49+00:00</lastmod>
 	</url>
 	<url>
-		<loc>/industry/wein-spirituosen/</loc>
+		<loc>https://www.scantrust.de/industry/wein-spirituosen/</loc>
 		<lastmod>2022-10-03T09:23:44+00:00</lastmod>
 	</url>
 </urlset>
