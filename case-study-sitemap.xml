@@ -1,83 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//cms.scantrust.de/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.scantrust.de/case-studies/brand-loyalty-mit-connected-packaging-fur-knorr/</loc>
-		<lastmod>2022-10-24T12:24:14+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/knorr-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/anti-counterfeiting-fur-dupont-wasserfilter-scantrust-fallstudie/</loc>
-		<lastmod>2022-10-24T12:44:00+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/Dupont-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/qr-code-track-and-trace-mit-anti-counterfeit-packaging-fur-remy-cointreau/</loc>
-		<lastmod>2022-10-24T12:45:19+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/05/remy-cointreau-track-and-trace-anti-counterfeiting.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
-		<lastmod>2022-10-24T12:46:25+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/Varta-scantrust.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/falschungssichere-etiketten-fur-flaschen-und-sichere-qr-codes-zum-schutz-vor-falschungen/</loc>
-		<lastmod>2022-10-24T12:48:02+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/ihealth-scantrust-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/qr-codes-fur-marketing-campaigns-wie-isdin-skincare-verwendet-connected-packaging/</loc>
-		<lastmod>2022-10-24T12:50:37+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/ISDIN-scantrust-1.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/steigerung-des-umsatzes-und-der-kundenbindung-bei-exxonmobil-fallstudie-scantrust/</loc>
-		<lastmod>2022-10-24T12:51:30+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/exxonm-LOYAL-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/falschungsschutz-mit-sicheren-qr-codes-fur-exxonmobil-motorol-fallstudie-scantrust/</loc>
-		<lastmod>2022-10-24T12:52:03+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/exxonm-BProtect-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/falschungsbekampfung-fur-duesberg-medizinische-handschuhe-fall-studie/</loc>
-		<lastmod>2022-10-24T12:53:15+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/duesberg-scantrust-2.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/falschungssichere-verpackungen-und-digitale-datenblatter-fur-akzonobel-protective-coatings/</loc>
-		<lastmod>2022-10-24T12:57:09+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/akzonobel-scantrust.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
-		<loc>https://www.scantrust.de/case-studies/anti-counterfeiting-fur-yogamatten/</loc>
-		<lastmod>2022-10-24T13:00:22+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/Liforme-scantrust-sq.jpg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.scantrust.de/case-studies/falschungssichere-steuermarken-fur-das-nationale-saatgutinstitut-inase-in-argentinien-fallstudie-von-scantrust/</loc>
 		<lastmod>2022-10-24T13:01:12+00:00</lastmod>
 		<image:image>
@@ -85,38 +8,115 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/case-studies/qr-codes-fur-gvo-kennzeichnung-auf-ferrara-sussigkeiten/</loc>
-		<lastmod>2022-10-24T13:02:23+00:00</lastmod>
+		<loc>https://www.scantrust.de/case-studies/falschungsbekampfung-mit-qr-codes-fur-marchesi-antinori/</loc>
+		<lastmod>2022-10-26T07:59:09+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/Ferrara-Scantrust-0.jpg</image:loc>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/10/marchesi-antinori-case-study.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/brand-loyalty-mit-connected-packaging-fur-knorr/</loc>
+		<lastmod>2022-10-26T08:48:00+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/knorr-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/anti-counterfeiting-fur-dupont-wasserfilter-scantrust-fallstudie/</loc>
+		<lastmod>2022-10-26T08:48:38+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/Dupont-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/qr-code-track-and-trace-mit-anti-counterfeit-packaging-fur-remy-cointreau/</loc>
+		<lastmod>2022-10-26T08:49:12+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/05/remy-cointreau-track-and-trace-anti-counterfeiting.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
+		<lastmod>2022-10-26T08:49:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/Varta-scantrust.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/qr-codes-fur-marketing-campaigns-wie-isdin-skincare-verwendet-connected-packaging/</loc>
+		<lastmod>2022-10-26T08:50:39+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/ISDIN-scantrust-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/steigerung-des-umsatzes-und-der-kundenbindung-bei-exxonmobil-fallstudie-scantrust/</loc>
+		<lastmod>2022-10-26T08:50:52+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/exxonm-LOYAL-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/falschungsschutz-mit-sicheren-qr-codes-fur-exxonmobil-motorol-fallstudie-scantrust/</loc>
+		<lastmod>2022-10-26T08:51:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/exxonm-BProtect-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/falschungsbekampfung-fur-duesberg-medizinische-handschuhe-fall-studie/</loc>
+		<lastmod>2022-10-26T08:52:48+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/duesberg-scantrust-2.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.scantrust.de/case-studies/informationen-zum-maschinenteil-via-qr-codes-fur-bhs-corrugated/</loc>
-		<lastmod>2022-10-24T13:02:47+00:00</lastmod>
+		<lastmod>2022-10-26T08:53:33+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/BHS-scantrust.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
+		<loc>https://www.scantrust.de/case-studies/falschungssichere-verpackungen-und-digitale-datenblatter-fur-akzonobel-protective-coatings/</loc>
+		<lastmod>2022-10-26T08:56:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/akzonobel-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/qr-codes-fur-gvo-kennzeichnung-auf-ferrara-sussigkeiten/</loc>
+		<lastmod>2022-10-26T08:57:30+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/Ferrara-Scantrust-0.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/anti-counterfeiting-fur-yogamatten/</loc>
+		<lastmod>2022-10-26T08:58:11+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/Liforme-scantrust-sq.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
 		<loc>https://www.scantrust.de/case-studies/falschungssicherheit-und-ruckverfolgbarkeit-der-produkte-fur-baias-wine/</loc>
-		<lastmod>2022-10-24T13:04:02+00:00</lastmod>
+		<lastmod>2022-10-26T08:59:50+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/baias-wines-1.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
 		<loc>https://www.scantrust.de/case-studies/losung-fur-produktschutz-mit-qr-codes-fur-nrg-windgerate/</loc>
-		<lastmod>2022-10-24T13:05:26+00:00</lastmod>
+		<lastmod>2022-10-26T09:00:20+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/NRG-scantrust.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/case-studies/falschungsbekampfung-mit-qr-codes-fur-marchesi-antinori/</loc>
-		<lastmod>2022-10-26T07:59:09+00:00</lastmod>
+		<loc>https://www.scantrust.de/case-studies/falschungssichere-etiketten-fur-flaschen-und-sichere-qr-codes-zum-schutz-vor-falschungen/</loc>
+		<lastmod>2022-10-26T09:03:07+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/10/marchesi-antinori-case-study.png</image:loc>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/ihealth-scantrust-1.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
