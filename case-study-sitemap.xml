@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//cms.scantrust.de/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://www.scantrust.de/case-studies/falschungsbekampfung-mit-qr-codes-fur-marchesi-antinori/</loc>
-		<lastmod>2022-10-24T12:19:13+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/10/compliance-icon.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.scantrust.de/case-studies/brand-loyalty-mit-connected-packaging-fur-knorr/</loc>
 		<lastmod>2022-10-24T12:24:14+00:00</lastmod>
 		<image:image>
@@ -117,6 +110,13 @@
 		<lastmod>2022-10-24T13:05:26+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/NRG-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/falschungsbekampfung-mit-qr-codes-fur-marchesi-antinori/</loc>
+		<lastmod>2022-10-26T07:59:09+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/10/marchesi-antinori-case-study.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
