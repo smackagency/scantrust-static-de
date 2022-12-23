@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//cms.scantrust.de/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<sitemap>
+		<loc>https://www.scantrust.de/post-sitemap.xml</loc>
+		<lastmod>2022-12-23T12:25:54+00:00</lastmod>
+	</sitemap>
+	<sitemap>
 		<loc>https://www.scantrust.de/page-sitemap.xml</loc>
 		<lastmod>2022-11-17T13:22:50+00:00</lastmod>
 	</sitemap>
 	<sitemap>
 		<loc>https://www.scantrust.de/case-study-sitemap.xml</loc>
-		<lastmod>2022-10-26T09:03:07+00:00</lastmod>
-	</sitemap>
-	<sitemap>
-		<loc>https://www.scantrust.de/industry-sitemap.xml</loc>
-		<lastmod>2022-10-26T09:03:07+00:00</lastmod>
-	</sitemap>
-	<sitemap>
-		<loc>https://www.scantrust.de/use-sitemap.xml</loc>
 		<lastmod>2022-10-26T09:03:07+00:00</lastmod>
 	</sitemap>
 </sitemapindex>
