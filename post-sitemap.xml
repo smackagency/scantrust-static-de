@@ -22,14 +22,17 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/welche-losungen-zum-schutz-vor-falschungen-sind-die-besten/</loc>
-		<lastmod>2023-01-25T03:15:15+00:00</lastmod>
-	</url>
-	<url>
 		<loc>https://www.scantrust.de/ruckverfolgbarkeit-von-produkten-der-endgultige-leitfaden/</loc>
 		<lastmod>2023-01-25T03:15:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/product-traceability-image.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/welche-losungen-zum-schutz-vor-falschungen-sind-die-besten/</loc>
+		<lastmod>2023-01-25T03:20:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/bags-fakes.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
