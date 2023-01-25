@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//cms.scantrust.de/wp-content/plugins/wordpress-seo/css/main-sitemap.xsl"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="https://www.scantrust.de/main-sitemap.xsl"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
 		<loc>https://www.scantrust.de/digitaler-produktpass-eu-regulierungen-fur-ruckverfolgbarkeit-der-produkte/</loc>
@@ -12,6 +12,24 @@
 		<lastmod>2023-01-11T09:44:28+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/11/wine-Telmont-300x300-1.png</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/was-ist-ein-dynamischer-qr-code/</loc>
+		<lastmod>2023-01-25T03:15:01+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/06/dynamic-QR-code-article.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/welche-losungen-zum-schutz-vor-falschungen-sind-die-besten/</loc>
+		<lastmod>2023-01-25T03:15:15+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/ruckverfolgbarkeit-von-produkten-der-endgultige-leitfaden/</loc>
+		<lastmod>2023-01-25T03:15:28+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/product-traceability-image.jpg</image:loc>
 		</image:image>
 	</url>
 </urlset>
