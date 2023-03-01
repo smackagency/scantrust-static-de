@@ -8,13 +8,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/weinetiketten-anforderungen-und-e-u-gemeinsame-agrapolitik-reform-2023/</loc>
-		<lastmod>2023-01-11T09:44:28+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/11/wine-Telmont-300x300-1.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.scantrust.de/was-ist-ein-dynamischer-qr-code/</loc>
 		<lastmod>2023-01-25T03:15:01+00:00</lastmod>
 		<image:image>
@@ -40,6 +33,13 @@
 		<lastmod>2023-01-25T10:07:40+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/AC-image-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/weinetiketten-anforderungen-und-e-u-gemeinsame-agrapolitik-reform-2023/</loc>
+		<lastmod>2023-03-01T07:21:23+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/11/wine-Telmont-300x300-1.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
