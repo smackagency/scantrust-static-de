@@ -47,15 +47,77 @@
 	<!-- / Yoast SEO plugin. -->
 
 
+<link rel="dns-prefetch" href="//cdn.iubenda.com">
 <link rel="stylesheet" id="classic-theme-styles-css" href="https://www.scantrust.de/wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="app-css" href="https://www.scantrust.de/wp-content/themes/site/static/css/app.b7d74e14be9d4a5fd93f.css?ver=1" type="text/css" media="all">
+
+<script type="text/javascript" class=" _iub_cs_skip" id="iubenda-head-inline-scripts-0">var _iub = _iub || [];
+  _iub.csConfiguration = {
+    askConsentAtCookiePolicyUpdate: true,
+    countryDetection: true,
+    enableLgpd: true,
+    enableUspr: true,
+    floatingPreferencesButtonDisplay: "bottom-left",
+    lang: "de",
+    lgpdAppliesGlobally: false,
+    perPurposeConsent: true,
+    siteId: 3025578,
+    whitelabel: false,
+    cookiePolicyId: 65818508,
+    banner: {
+      acceptButtonDisplay: true,
+      closeButtonDisplay: false,
+      customizeButtonDisplay: true,
+      explicitWithdrawal: true,
+      fontSizeBody: "12px",
+      listPurposes: true,
+      position: "float-bottom-left",
+      rejectButtonDisplay: true,
+      showPurposesToggles: true,
+      acceptButtonCaption: "Akzeptieren",
+      content:
+        'Durch Klicken auf "Akzeptieren" erklären Sie sich mit der Speicherung von Cookies auf Ihrem Gerät einverstanden, um die Navigation auf der Website zu verbessern, die Nutzung der Website zu analysieren und unsere Marketingmaßnahmen zu unterstützen.',
+    },
+    "callback": {
+            onPreferenceExpressedOrNotNeeded: function(preference) {
+                dataLayer.push({
+                    iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+                });
+                if (!preference) {
+                    dataLayer.push({
+                        event: "iubenda_preference_not_needed"
+                    });
+                } else {
+                    if (preference.consent === true) {
+                        dataLayer.push({
+                            event: "iubenda_consent_given"
+                        });
+                    } else if (preference.consent === false) {
+                        dataLayer.push({
+                            event: "iubenda_consent_rejected"
+                        });
+                    } else if (preference.purposes) {
+                        for (var purposeId in preference.purposes) {
+                            if (preference.purposes[purposeId]) {
+                                dataLayer.push({
+                                    event: "iubenda_consent_given_purpose_" + purposeId
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+  };</script>
+<script type="text/javascript" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/gpp/stub.js?ver=3.5.9" id="iubenda-head-scripts-0-js"></script>
+<script type="text/javascript" charset="UTF-8" async="" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/iubenda_cs.js?ver=3.5.9" id="iubenda-head-scripts-1-js"></script>
 <link rel="https://api.w.org/" href="https://www.scantrust.de/wp-json/">
 <link rel="alternate" type="application/json" href="https://www.scantrust.de/wp-json/wp/v2/pages/4710">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.scantrust.de/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.1.1">
 <link rel="shortlink" href="https://www.scantrust.de/?p=4710">
 <link rel="alternate" type="application/json+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fanwendungen-fur-den-lieferketten-workflow%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fanwendungen-fur-den-lieferketten-workflow%2F#038;format=xml">
+<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fanwendungen-fur-den-lieferketten-workflow%2F&amp;format=xml">
 		<meta name="ssp-url">
 		<meta name="ssp-origin-url" content="aHR0cHM6Ly9jbXMuc2NhbnRydXN0LmRl">
 
@@ -175,7 +237,7 @@
 	<div class="container"></div>
 			
 <div class="post-text " id="">
-<p><span style="font-size: 24px; font-family: roboto, sans-serif; color: #808080; font-weight: 300; line-height: 1.3;">Mobile und Web-Apps zum Scannen, Verfolgen und Nachverfolgen von Produkten &#8211; und ihren logistischen Einheiten &#8211; durch die Lieferkette bis zum Endkunden.</span></p>
+<p><span style="font-size: 24px; font-family: roboto, sans-serif; color: #808080; font-weight: 300; line-height: 1.3;">Mobile und Web-Apps zum Scannen, Verfolgen und Nachverfolgen von Produkten – und ihren logistischen Einheiten – durch die Lieferkette bis zum Endkunden.</span></p>
 </div>
 
 		</div>
@@ -341,7 +403,7 @@
   <div class="text-image__content --right --center" style="padding-top: px;padding-right: px;padding-bottom: px;padding-left: px;">
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Verwalten Sie QR-Code- und NFC-Scanaufgaben mit einer speziellen Web-App</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Erstellen, verwalten und überwachen Sie die von Ihren Mitarbeitern in der Lieferkette zu erledigenden Scanaufgaben. Sie sehen Ihre Scan-Aufgaben in einer geordneten Liste. Änderungen an Ihren Aufgaben oder denen Ihres Teams werden sofort angezeigt.</span></p>
 </div>  </div>
   <div class="text-image__media">
@@ -378,12 +440,12 @@
   <div class="text-image__content --center" style="padding-top: px;padding-right: px;padding-bottom: px;padding-left: px;">
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Scannen Sie Artikel, um die Bestellnummer dem Produkt, das Produkt dem Karton, den Karton der Palette und mehr zuzuordnen.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: ibm-plex-sans, sans-serif; line-height: 1;">Beheben Sie schwerfällige Arbeitsabläufe und verbinden Sie schwer zu integrierende Systeme und Informationen.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><a class="blue-arrow" href="https://play.google.com/store/apps/details?id=com.scantrust.android.enterprise&amp;hl=en&amp;gl=US">Holen Sie sich für Android</a></p>
 <p><a class="blue-arrow" href="https://apps.apple.com/us/app/scantrust-enterprise/id1204648903">Holen Sie sich für iOS</a></p>
-<p>&nbsp;</p>
+<p> </p>
 </div>  </div>
   <div class="text-image__media">
         <video class="text-image__image" style="width: 70%" loop autoplay muted playsinline>
@@ -584,7 +646,7 @@
   </figure>
 
 <div class="post-text " id="">
-<p><span style="font-family: ibm-plex-sans, sans-serif; font-size: 20px;">QR-Code-Track &#038; Trace mit fälschungssicherer Verpackung für Rémy Cointreau</span></p>
+<p><span style="font-family: ibm-plex-sans, sans-serif; font-size: 20px;">QR-Code-Track &amp; Trace mit fälschungssicherer Verpackung für Rémy Cointreau</span></p>
 <p style="text-align: right;"><a class="green-arrow" href="https://www.scantrust.de/case-studies/qr-code-track-and-trace-mit-anti-counterfeit-packaging-fur-remy-cointreau/">Fallstudie lesen</a></p>
 </div>
 
@@ -795,4 +857,6 @@ Singapore 117439</p>
 		<script type="text/javascript" src="https://www.scantrust.de/wp-content/themes/site/static/js/app.b7d74e14be9d4a5fd93f.js?ver=1" id="app-js"></script>
 
       </body>
+
+<!-- Parsed with iubenda experimental class in 0.0042 sec. -->
 </html>

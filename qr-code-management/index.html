@@ -47,15 +47,77 @@
 	<!-- / Yoast SEO plugin. -->
 
 
+<link rel="dns-prefetch" href="//cdn.iubenda.com">
 <link rel="stylesheet" id="classic-theme-styles-css" href="https://www.scantrust.de/wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="app-css" href="https://www.scantrust.de/wp-content/themes/site/static/css/app.b7d74e14be9d4a5fd93f.css?ver=1" type="text/css" media="all">
+
+<script type="text/javascript" class=" _iub_cs_skip" id="iubenda-head-inline-scripts-0">var _iub = _iub || [];
+  _iub.csConfiguration = {
+    askConsentAtCookiePolicyUpdate: true,
+    countryDetection: true,
+    enableLgpd: true,
+    enableUspr: true,
+    floatingPreferencesButtonDisplay: "bottom-left",
+    lang: "de",
+    lgpdAppliesGlobally: false,
+    perPurposeConsent: true,
+    siteId: 3025578,
+    whitelabel: false,
+    cookiePolicyId: 65818508,
+    banner: {
+      acceptButtonDisplay: true,
+      closeButtonDisplay: false,
+      customizeButtonDisplay: true,
+      explicitWithdrawal: true,
+      fontSizeBody: "12px",
+      listPurposes: true,
+      position: "float-bottom-left",
+      rejectButtonDisplay: true,
+      showPurposesToggles: true,
+      acceptButtonCaption: "Akzeptieren",
+      content:
+        'Durch Klicken auf "Akzeptieren" erklären Sie sich mit der Speicherung von Cookies auf Ihrem Gerät einverstanden, um die Navigation auf der Website zu verbessern, die Nutzung der Website zu analysieren und unsere Marketingmaßnahmen zu unterstützen.',
+    },
+    "callback": {
+            onPreferenceExpressedOrNotNeeded: function(preference) {
+                dataLayer.push({
+                    iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+                });
+                if (!preference) {
+                    dataLayer.push({
+                        event: "iubenda_preference_not_needed"
+                    });
+                } else {
+                    if (preference.consent === true) {
+                        dataLayer.push({
+                            event: "iubenda_consent_given"
+                        });
+                    } else if (preference.consent === false) {
+                        dataLayer.push({
+                            event: "iubenda_consent_rejected"
+                        });
+                    } else if (preference.purposes) {
+                        for (var purposeId in preference.purposes) {
+                            if (preference.purposes[purposeId]) {
+                                dataLayer.push({
+                                    event: "iubenda_consent_given_purpose_" + purposeId
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+  };</script>
+<script type="text/javascript" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/gpp/stub.js?ver=3.5.9" id="iubenda-head-scripts-0-js"></script>
+<script type="text/javascript" charset="UTF-8" async="" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/iubenda_cs.js?ver=3.5.9" id="iubenda-head-scripts-1-js"></script>
 <link rel="https://api.w.org/" href="https://www.scantrust.de/wp-json/">
 <link rel="alternate" type="application/json" href="https://www.scantrust.de/wp-json/wp/v2/pages/2573">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.scantrust.de/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.1.1">
 <link rel="shortlink" href="https://www.scantrust.de/?p=2573">
 <link rel="alternate" type="application/json+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fqr-code-management%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fqr-code-management%2F#038;format=xml">
+<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fqr-code-management%2F&amp;format=xml">
 		<meta name="ssp-url">
 		<meta name="ssp-origin-url" content="aHR0cHM6Ly9jbXMuc2NhbnRydXN0LmRl">
 
@@ -321,13 +383,13 @@
   <div class="text-image__content --center" style="padding-top: px;padding-right: px;padding-bottom: px;padding-left: px;">
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Erstellen Sie sowohl nicht serialisierte (SKU- oder Chargenebene) als auch serialisierte (eindeutige) dynamische QR-Codes</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Verwendung auf Produktverpackungen, Teilen, Dokumenten usw. Flexible Download- und Integrationsmöglichkeiten.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Funktioniert nahtlos mit unserem Tool zur Erstellung von Landing Pages</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Flexibel, schnell und ohne Programmieraufwand. Gehen Sie über grundlegende Produktinformationen hinaus.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><a class="blue-arrow" href="https://www.scantrust.de/landing-page-creator/">Siehe Mobile Landing Page Creator</a></p>
 </div>  </div>
   <div class="text-image__media">
@@ -358,13 +420,13 @@
   <div class="text-image__content --right --center" style="padding-top: px;padding-right: px;padding-bottom: px;padding-left: px;">
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Führen Sie globale Engagement-Kampagnen mit flexiblen URL-Umleitungsregeln durch</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Erstellen Sie personalisierte Kundenerlebnisse, nachdem sie QR-Codes gescannt haben. Die Regeln können auf dem Standort des Kunden, der Sprache und mehr basieren.  Perfekt für globale Marken mit vielen verschiedenen lokalen Kampagnen.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Verwenden Sie benutzerdefinierte, markengeschützte Domänen für Umleitungs-URLs</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Bleiben Sie während des gesamten Scanvorgangs für den Kunden markenkonform, vom QR-Code-Scan bis zur Landing Page.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><a class="blue-arrow">Siehe Lösungen zur Kundenbindung</a></p>
 </div>  </div>
   <div class="text-image__media">
@@ -392,7 +454,7 @@
   <div class="text-image__content --center" style="padding-top: px;padding-right: px;padding-bottom: px;padding-left: px;">
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Verwalten Sie Ihre QR-Codes ganz einfach und behalten Sie den Überblick</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Organisieren Sie nach Produkt, SKU, Marke oder benutzerdefinierten Tags. Nützlich für die Verwaltung von QR-Codes für viele und marktübergreifende SKUs, für mehrere Marken und große Mengen an serialisierten (eindeutigen) oder nicht serialisierten (Chargen- oder SKU-Ebene) Codes.</span></p>
 </div>  </div>
   <div class="text-image__media">
@@ -421,7 +483,7 @@
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Sichere, flexible und komfortable Benutzer- und Teamverwaltung<br>
 </span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Verwalten Sie Rollen und Berechtigungen in QR-Code- und Landing-Page-Workflows. Nutzen Sie Single Sign-on (SSO) und Zwei-Faktor-Authentifizierung für eine bequeme, sichere und konforme Unternehmensbereitstellung.</span></p>
 </div>  </div>
   <div class="text-image__media">
@@ -490,7 +552,7 @@
 	<div class="container"></div>
 			
 <div class="post-text " id="">
-<p><span style="font-size: 26px; font-weight: 600; line-height: 1;">&#8220;Scantrust ist unser Partner der Wahl.&#8221;</span></p>
+<p><span style="font-size: 26px; font-weight: 600; line-height: 1;">“Scantrust ist unser Partner der Wahl.”</span></p>
 </div>
 
 <div class="post-text " id="">
@@ -828,4 +890,6 @@ Singapore 117439</p>
 		<script type="text/javascript" src="https://www.scantrust.de/wp-content/themes/site/static/js/app.b7d74e14be9d4a5fd93f.js?ver=1" id="app-js"></script>
 
       </body>
+
+<!-- Parsed with iubenda experimental class in 0.0041 sec. -->
 </html>

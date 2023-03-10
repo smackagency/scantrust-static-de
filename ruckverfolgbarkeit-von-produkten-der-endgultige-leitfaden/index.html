@@ -55,15 +55,77 @@
 	<!-- / Yoast SEO plugin. -->
 
 
+<link rel="dns-prefetch" href="//cdn.iubenda.com">
 <link rel="stylesheet" id="classic-theme-styles-css" href="https://www.scantrust.de/wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="app-css" href="https://www.scantrust.de/wp-content/themes/site/static/css/app.b7d74e14be9d4a5fd93f.css?ver=1" type="text/css" media="all">
+
+<script type="text/javascript" class=" _iub_cs_skip" id="iubenda-head-inline-scripts-0">var _iub = _iub || [];
+  _iub.csConfiguration = {
+    askConsentAtCookiePolicyUpdate: true,
+    countryDetection: true,
+    enableLgpd: true,
+    enableUspr: true,
+    floatingPreferencesButtonDisplay: "bottom-left",
+    lang: "de",
+    lgpdAppliesGlobally: false,
+    perPurposeConsent: true,
+    siteId: 3025578,
+    whitelabel: false,
+    cookiePolicyId: 65818508,
+    banner: {
+      acceptButtonDisplay: true,
+      closeButtonDisplay: false,
+      customizeButtonDisplay: true,
+      explicitWithdrawal: true,
+      fontSizeBody: "12px",
+      listPurposes: true,
+      position: "float-bottom-left",
+      rejectButtonDisplay: true,
+      showPurposesToggles: true,
+      acceptButtonCaption: "Akzeptieren",
+      content:
+        'Durch Klicken auf "Akzeptieren" erklären Sie sich mit der Speicherung von Cookies auf Ihrem Gerät einverstanden, um die Navigation auf der Website zu verbessern, die Nutzung der Website zu analysieren und unsere Marketingmaßnahmen zu unterstützen.',
+    },
+    "callback": {
+            onPreferenceExpressedOrNotNeeded: function(preference) {
+                dataLayer.push({
+                    iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+                });
+                if (!preference) {
+                    dataLayer.push({
+                        event: "iubenda_preference_not_needed"
+                    });
+                } else {
+                    if (preference.consent === true) {
+                        dataLayer.push({
+                            event: "iubenda_consent_given"
+                        });
+                    } else if (preference.consent === false) {
+                        dataLayer.push({
+                            event: "iubenda_consent_rejected"
+                        });
+                    } else if (preference.purposes) {
+                        for (var purposeId in preference.purposes) {
+                            if (preference.purposes[purposeId]) {
+                                dataLayer.push({
+                                    event: "iubenda_consent_given_purpose_" + purposeId
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+  };</script>
+<script type="text/javascript" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/gpp/stub.js?ver=3.5.9" id="iubenda-head-scripts-0-js"></script>
+<script type="text/javascript" charset="UTF-8" async="" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/iubenda_cs.js?ver=3.5.9" id="iubenda-head-scripts-1-js"></script>
 <link rel="https://api.w.org/" href="https://www.scantrust.de/wp-json/">
 <link rel="alternate" type="application/json" href="https://www.scantrust.de/wp-json/wp/v2/posts/1653">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.scantrust.de/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.1.1">
 <link rel="shortlink" href="https://www.scantrust.de/?p=1653">
 <link rel="alternate" type="application/json+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fruckverfolgbarkeit-von-produkten-der-endgultige-leitfaden%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fruckverfolgbarkeit-von-produkten-der-endgultige-leitfaden%2F#038;format=xml">
+<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fruckverfolgbarkeit-von-produkten-der-endgultige-leitfaden%2F&amp;format=xml">
 		<meta name="ssp-url">
 		<meta name="ssp-origin-url" content="aHR0cHM6Ly9jbXMuc2NhbnRydXN0LmRl">
 
@@ -154,7 +216,7 @@
 
 <div class="post-text " id="">
 <p><span style="font-weight: 300;">Wenn Sie dies lesen, haben Sie in den letzten zwei Jahren wahrscheinlich zunehmende Probleme mit fehlbaren Vertriebspartnern, nachgelagertem Bestandsmanagement, Fälschungen und Produktumleitungen erlebt. Schocks in der Lieferkette, verursacht durch Pandemien, Naturkatastrophen, steigende Ölpreise, politische Umwälzungen und Kriege, haben diese Probleme noch verschärft und neue Herausforderungen für Ihre Marke und Ihr Unternehmen geschaffen.</span></p>
-<p><span style="font-weight: 300;">Als Reaktion auf dieses zunehmend schwierige Klima haben viele der weltweit führenden Marken in <b>Systeme zur Rückverfolgbarkeit von Produkten</b> investiert &#8211; Instrumente, die es den Unternehmen ermöglichen, ihre Produkte in der Lieferkette bis hin zum Endkunden zu überwachen. Die Rückverfolgbarkeitstechnologie schreitet schnell voran und hat sich in den letzten zwei Jahren stark verändert. QR-Codes werden täglich Hunderte Millionen Mal von Milliarden von Menschen gescannt und RFID-Chips finden sich auf immer mehr Produkten, wobei beide &#8220;Tags&#8221; eine wichtige Rolle in Rückverfolgungsprogrammen spielen.</span></p>
+<p><span style="font-weight: 300;">Als Reaktion auf dieses zunehmend schwierige Klima haben viele der weltweit führenden Marken in <b>Systeme zur Rückverfolgbarkeit von Produkten</b> investiert – Instrumente, die es den Unternehmen ermöglichen, ihre Produkte in der Lieferkette bis hin zum Endkunden zu überwachen. Die Rückverfolgbarkeitstechnologie schreitet schnell voran und hat sich in den letzten zwei Jahren stark verändert. QR-Codes werden täglich Hunderte Millionen Mal von Milliarden von Menschen gescannt und RFID-Chips finden sich auf immer mehr Produkten, wobei beide “Tags” eine wichtige Rolle in Rückverfolgungsprogrammen spielen.</span></p>
 <p><span style="font-weight: 300;"><b>Das Verständnis der verschiedenen Ansätze und Technologien für die Rückverfolgbarkeit ist der Schlüssel zur Nutzung der Vorteile, die sie Ihrem Unternehmen bieten können. Leider sind die meisten Online-Whitepapers, Leitfäden und Berichte über Technologien zur Rückverfolgbarkeit von Produkten und Lieferketten veraltet, zu sehr darauf ausgerichtet, Ihnen etwas zu verkaufen, schwer zu lesen oder enthalten ungenaue Informationen.</b></span></p>
 <p><span style="font-weight: 300;">Angesichts dieser Diskrepanz zwischen der Nachfrage nach qualitativ hochwertigen Informationen über Rückverfolgbarkeitslösungen und dem Mangel an qualitativ hochwertigen Informationen haben wir wichtige Erkenntnisse zusammengestellt, die darauf basieren, wie wir Technologien zur Produktrückverfolgung in komplexen globalen Lieferketten <a href="https://www.scantrust.com/case-studies/">für Unternehmen wie Dupont, ExxonMobil und Rémy Cointreau</a> eingesetzt haben .</span></p>
 <p><span style="font-weight: 300;">Unabhängig davon, ob Sie mit spezifischen Rückverfolgbarkeitsproblemen zu kämpfen haben oder diesen Trend im Lieferkettenmanagement gerade erst erforschen, sind wir zuversichtlich, dass dieser detaillierte Leitfaden, der auf den jüngsten Implementierungen der Rückverfolgbarkeit in der Praxis basiert, umsetzbare Einblicke in die Möglichkeiten und Lösungen für Ihr Unternehmen bietet.</span></p>
@@ -190,9 +252,9 @@
 
 <div class="post-text " id="">
 <ul>
-<li><a href="#Überblick"><span style="font-weight: 300;">Rückverfolgbarkeit von Produkten: ein Überblick</span></a></li>
+<li><a href="#%C3%9Cberblick"><span style="font-weight: 300;">Rückverfolgbarkeit von Produkten: ein Überblick</span></a></li>
 <li style="font-weight: 400;" aria-level="1"><a href="#Vorteile"><span style="font-weight: 300;">Vorteile der Rückverfolgbarkeit von Produkten</span></a></li>
-<li style="font-weight: 400;" aria-level="1"><a href="#Arten"><span style="font-weight: 300;">Arten von Rückverfolgbarkeitsdaten &#8211; vorgelagert, nachgelagert, passiv und aktiv</span></a></li>
+<li style="font-weight: 400;" aria-level="1"><a href="#Arten"><span style="font-weight: 300;">Arten von Rückverfolgbarkeitsdaten – vorgelagert, nachgelagert, passiv und aktiv</span></a></li>
 <li style="font-weight: 400;" aria-level="1"><a href="#Technologien"><span style="font-weight: 300;">Schlüsseltechnologien für die Rückverfolgbarkeit von Produkten und Lieferketten</span></a></li>
 <li style="font-weight: 400;" aria-level="1"><a href="#Zehn-Schritte"><span style="font-weight: 300;">Zehn Schritte zur Planung eines Rückverfolgbarkeitsprogramms</span></a></li>
 </ul>
@@ -246,10 +308,10 @@
 <ol>
 <li style="list-style-type: none;">
 <ol>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Ein System zur Erzeugung eindeutiger Codes oder Etiketten für Produkte, von Tausenden bis zu Hunderten von Millionen. Dies wird oft als &#8220;Produktserialisierung&#8221; bezeichnet.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Ein System zur Erzeugung eindeutiger Codes oder Etiketten für Produkte, von Tausenden bis zu Hunderten von Millionen. Dies wird oft als “Produktserialisierung” bezeichnet.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Hardware und Verfahren zum Drucken und Aufbringen von eindeutigen Identifikatoren wie Barcodes, QR-Codes, Data Matrix oder elektronischen Chips (RFID, NFC) auf Produktverpackungen, Kisten und/oder Paletten.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Geräte zum Scannen von Codes auf Produkten entlang der Lieferkette, z. B. Kameras, Chip-Scanner, Handheld-Geräte und Smartphone-basierte mobile Anwendungen.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Verfolgung logistischer Einheiten für Container, Lastwagen usw. &#8211; oft mit GPS und Umgebungssensoren.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Verfolgung logistischer Einheiten für Container, Lastwagen usw. – oft mit GPS und Umgebungssensoren.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Integrationen zwischen Ihren Enterprise Resource Planning (ERP)- und Manufacturing Execution System (MES)-Systemen, Druck- und Lagersystemen sowie Ihrer Rückverfolgbarkeitsplattform zur Erfassung aller relevanten Ereignisse in der Lieferkette an der Quelle.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Ein Softwaresystem oder eine Softwareplattform für die Rückverfolgbarkeit von Produkten, die eine einzige Wahrheitsquelle für alle Datenquellen Ihrer Lieferkette bietet.</span></li>
 </ol>
@@ -300,7 +362,7 @@
 
 
 <div class="post-text " id="">
-<p><span style="font-weight: 300;">Die Rückverfolgbarkeit in der Lieferkette kann in &#8220;vorgelagerte&#8221; und &#8220;nachgelagerte&#8221; Rückverfolgbarkeit unterteilt werden. Die <b>vorgelagerte</b> Rückverfolgbarkeit bezieht sich auf die Quelle und den Weg Ihrer Produktinputs, Zutaten oder Rohstoffe, während die <b>nachgelagerte</b> Rückverfolgbarkeit sich auf die Verfolgung Ihres Produkts nach der Produktion durch die Lieferkette bis zum Kunden bezieht.</span></p>
+<p><span style="font-weight: 300;">Die Rückverfolgbarkeit in der Lieferkette kann in “vorgelagerte” und “nachgelagerte” Rückverfolgbarkeit unterteilt werden. Die <b>vorgelagerte</b> Rückverfolgbarkeit bezieht sich auf die Quelle und den Weg Ihrer Produktinputs, Zutaten oder Rohstoffe, während die <b>nachgelagerte</b> Rückverfolgbarkeit sich auf die Verfolgung Ihres Produkts nach der Produktion durch die Lieferkette bis zum Kunden bezieht.</span></p>
 </div>
 
 <figure class="post-image" style="text-align: center;" id="">
@@ -314,12 +376,12 @@
       max-width: none;
       text-align: left;
     ">
-    Was ist der Unterschied zwischen &#8220;Track and Trace&#8221; und &#8220;Rückverfolgbarkeit&#8221;?
+    Was ist der Unterschied zwischen “Track and Trace” und “Rückverfolgbarkeit”?
   </h4>
 
 
 <div class="post-text " id="">
-<p><span style="font-weight: 300;">Die Begriffe &#8220;Rückverfolgbarkeit&#8221; und &#8220;Track &amp; Trace&#8221; werden häufig synonym verwendet, wenn es um die Rückverfolgbarkeit von Produkten oder Lieferketten geht. Die Rückverfolgbarkeit wird heute immer beliebter und kann sich sowohl auf vor- als auch auf nachgelagerte Anwendungsfälle beziehen.</span></p>
+<p><span style="font-weight: 300;">Die Begriffe “Rückverfolgbarkeit” und “Track &amp; Trace” werden häufig synonym verwendet, wenn es um die Rückverfolgbarkeit von Produkten oder Lieferketten geht. Die Rückverfolgbarkeit wird heute immer beliebter und kann sich sowohl auf vor- als auch auf nachgelagerte Anwendungsfälle beziehen.</span></p>
 </div>
 
   <h4 id="" class="post-title" style="
@@ -372,7 +434,7 @@
   </figure>
 
 <div class="post-text " id="">
-<p><span style="font-weight: 300;">Eine zentrale Herausforderung für Programme zur Rückverfolgbarkeit in der Lieferkette ist die Erfassung von Daten in der &#8220;Mitte&#8221; der Lieferkette, wenn sich die Produkte in der Obhut von Händlern oder Vertriebspartnern befinden.</span></p>
+<p><span style="font-weight: 300;">Eine zentrale Herausforderung für Programme zur Rückverfolgbarkeit in der Lieferkette ist die Erfassung von Daten in der “Mitte” der Lieferkette, wenn sich die Produkte in der Obhut von Händlern oder Vertriebspartnern befinden.</span></p>
 <p><span style="font-weight: 300;">In einigen Branchen, z. B. in der Lebensmittel- und Getränkeindustrie und bei Industriegütern, haben die Marken nur einen begrenzten Einfluss auf die Händler und daher nur begrenzte oder gar keine Möglichkeit, Daten über die Lieferkette von ihnen zu erhalten.</span></p>
 <p><span style="font-weight: 300;">Es gibt viele Gründe, warum es schwierig ist, Lieferkettendaten von Händlern zu erhalten:</span></p>
 <ul>
@@ -382,10 +444,10 @@
 </ul>
 <p><span style="font-weight: 300;">Moderne Rückverfolgbarkeitssysteme bewältigen die oben genannten Herausforderungen bei der Beschaffung von Lieferkettendaten von Händlern auf zwei Arten:</span></p>
 <ol>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Sie haben einen Zielmarkt für jedes Produkt.</b> Das Rückverfolgbarkeitssystem speichert für jedes Produkt über seinen eindeutigen Code einen Bestimmungs- oder Zielmarkt. Scandaten von Endpunkten der Lieferkette &#8211; Verbraucher, Kunden, gewerbliche Nutzer oder Inspektoren &#8211; zeigen, ob Produkte auf unzulässige Weise vertrieben wurden.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Sie haben einen Zielmarkt für jedes Produkt.</b> Das Rückverfolgbarkeitssystem speichert für jedes Produkt über seinen eindeutigen Code einen Bestimmungs- oder Zielmarkt. Scandaten von Endpunkten der Lieferkette – Verbraucher, Kunden, gewerbliche Nutzer oder Inspektoren – zeigen, ob Produkte auf unzulässige Weise vertrieben wurden.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Machen Sie es Händlern leicht, Produkte ohne IT-Integration oder spezielle Hardware zu scannen.</b> Smartphone-basierte mobile Apps zum Scannen von QR-Codes, RFID und NFC auf Kartons, Kisten und Paletten können es Händlern erheblich erleichtern, blinde Flecken in Ihrer Lieferkette zu füllen, ohne dass kostspielige Integrationen bei vielen Beteiligten erforderlich sind.</span></li>
 </ol>
-<p><span style="font-weight: 300;">Endnutzerdaten aus vernetzten Verpackungskampagnen sind ein wichtiger Vorteil für Marken. Durch Anreize für die Nutzer, die Verpackung zu &#8220;scannen&#8221; oder sich mit ihr zu beschäftigen, können mehr Daten gesammelt werden, während gleichzeitig nützliche Informationen für die Endnutzer bereitgestellt werden.</span></p>
+<p><span style="font-weight: 300;">Endnutzerdaten aus vernetzten Verpackungskampagnen sind ein wichtiger Vorteil für Marken. Durch Anreize für die Nutzer, die Verpackung zu “scannen” oder sich mit ihr zu beschäftigen, können mehr Daten gesammelt werden, während gleichzeitig nützliche Informationen für die Endnutzer bereitgestellt werden.</span></p>
 </div>
 
   <h3 id="" class="post-title" style="
@@ -393,7 +455,7 @@
       max-width: none;
       text-align: left;
     ">
-    Vorteil Nr. 2: Nachfrageprognose (Angebots- und Nachfragesteuerung), Verwaltung der Händlerbestände, Vertriebs- und Betriebsplanung (S&#038;OP)
+    Vorteil Nr. 2: Nachfrageprognose (Angebots- und Nachfragesteuerung), Verwaltung der Händlerbestände, Vertriebs- und Betriebsplanung (S&amp;OP)
   </h3>
 
 
@@ -434,13 +496,13 @@
 
 
 <div class="post-text " id="">
-<p><span style="font-weight: 300;">Viele Industriezweige sind so reguliert, dass Produkte und ihre Inhaltsstoffe, Rohstoffe oder andere Inputs bis auf die Einheitsebene rückverfolgbar sein müssen. Dies kann nur durch Serialisierung &#8211; das Aufdrucken, Etikettieren oder sogar Lasermarkieren von eindeutigen Codes auf Produkten und Verpackungen &#8211; zu vertretbaren Kosten erreicht werden.</span></p>
+<p><span style="font-weight: 300;">Viele Industriezweige sind so reguliert, dass Produkte und ihre Inhaltsstoffe, Rohstoffe oder andere Inputs bis auf die Einheitsebene rückverfolgbar sein müssen. Dies kann nur durch Serialisierung – das Aufdrucken, Etikettieren oder sogar Lasermarkieren von eindeutigen Codes auf Produkten und Verpackungen – zu vertretbaren Kosten erreicht werden.</span></p>
 <p><span style="font-weight: 300;">Beispiele für gesetzliche Anforderungen im Zusammenhang mit der Produktserialisierung sind:</span></p>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Die pharmazeutische Industrie ist verpflichtet, die Produkte mit serialisierten Codes zu versehen, um die Rückverfolgbarkeit auf Chargen- und Losebene zu gewährleisten.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Für Medizinprodukte ist die Verwendung von staatlich registrierten eindeutigen Produktkennzeichnungen (UDIs) vorgeschrieben.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Auf vielen Märkten müssen Tabakerzeugnisse mit eindeutigen Kennzeichnungen versehen werden.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Lebensmittel, die GVO-Zutaten enthalten, müssen in den USA als solche gekennzeichnet werden &#8211; eine offiziell anerkannte Methode ist die Verwendung von QR-Codes.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Lebensmittel, die GVO-Zutaten enthalten, müssen in den USA als solche gekennzeichnet werden – eine offiziell anerkannte Methode ist die Verwendung von QR-Codes.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;">Alkoholische oder andere Produkte, die nicht in einen bestimmten Markt exportiert werden dürfen, werden von den Marken verfolgt, um zu verhindern, dass sie auf diese Märkte gelangen.</span></li>
 </ul>
 </div>
@@ -453,7 +515,7 @@
   </figure>
 
 <div class="post-text " id="">
-<p><span style="font-weight: 400;">Eine neue EU-Initiative mit dem Namen &#8221; </span><a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2013"><span style="font-weight: 400;">Digitaler Produktpass&#8221;</span></a><span style="font-weight: 400;"> sieht vor, dass Branchen wie Batterien, Textilien, Baumaterialien, Elektronikschrott, Kunststoffe, Chemikalien und Autoteile mit eindeutigen Kennzeichnungen versehen werden müssen, anhand derer die Umweltauswirkungen ihrer Produktion bewertet werden können. Die ersten Branchen sollen bis 2024 geregelt werden.</span></p>
+<p><span style="font-weight: 400;">Eine neue EU-Initiative mit dem Namen ” </span><a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2013"><span style="font-weight: 400;">Digitaler Produktpass”</span></a><span style="font-weight: 400;"> sieht vor, dass Branchen wie Batterien, Textilien, Baumaterialien, Elektronikschrott, Kunststoffe, Chemikalien und Autoteile mit eindeutigen Kennzeichnungen versehen werden müssen, anhand derer die Umweltauswirkungen ihrer Produktion bewertet werden können. Die ersten Branchen sollen bis 2024 geregelt werden.</span></p>
 </div>
 
   <h3 id="" class="post-title" style="
@@ -466,7 +528,7 @@
 
 
 <div class="post-text " id="">
-<p><span style="font-weight: 300;">Die Rückverfolgbarkeit ermöglicht neue Geschäftsmodelle und -praktiken, bei denen das Produkt oder die Produktverpackung wiederverwendet, repariert, aufgearbeitet oder recycelt wird. Dies ist in der Elektronik und bei Industriegütern immer häufiger der Fall. Bei einer Vielzahl von Produkten &#8211; von Computerteilen über Autobatterien bis hin zu Ölfässern &#8211; werden inzwischen recycelte Komponenten oder Teile der Verpackung wiederverwendet oder neu befüllt, was Kosten spart und den ökologischen Fußabdruck verringert.</span></p>
+<p><span style="font-weight: 300;">Die Rückverfolgbarkeit ermöglicht neue Geschäftsmodelle und -praktiken, bei denen das Produkt oder die Produktverpackung wiederverwendet, repariert, aufgearbeitet oder recycelt wird. Dies ist in der Elektronik und bei Industriegütern immer häufiger der Fall. Bei einer Vielzahl von Produkten – von Computerteilen über Autobatterien bis hin zu Ölfässern – werden inzwischen recycelte Komponenten oder Teile der Verpackung wiederverwendet oder neu befüllt, was Kosten spart und den ökologischen Fußabdruck verringert.</span></p>
 <p><span style="font-weight: 300;">Systeme zur Rückverfolgbarkeit der Lieferkette werden jetzt eingesetzt, um diese neuen Geschäftsmodelle zu erleichtern und um zu verhindern, dass gefälschte oder nicht genehmigte Teile verwendet werden oder dass Teile aus nicht genehmigten Kanälen in die vorgelagerte Lieferkette gelangen.</span></p>
 <p><span style="font-weight: 300;">Das neu vorgeschlagene <a href="https://ec.europa.eu/commission/presscorner/detail/en/ip_22_2013">EU-Programm für digitale Produktpässe</a> würde Standards für eine solche Rückverfolgbarkeit und die Bewertung des CO2-Fußabdrucks von Produkten schaffen und bestimmte Branchen verpflichten, solche Systeme zu nutzen und ihren Kunden diese Informationen zur Verfügung zu stellen.</span></p>
 </div>
@@ -532,7 +594,7 @@
       max-width: none;
       text-align: left;
     ">
-    Vorgelagerte Rückverfolgbarkeitsdaten: &#8220;Was ist in Ihrem Produkt&#8221;
+    Vorgelagerte Rückverfolgbarkeitsdaten: “Was ist in Ihrem Produkt”
   </h3>
 
 
@@ -564,7 +626,7 @@
       max-width: none;
       text-align: left;
     ">
-    Daten zur Rückverfolgbarkeit nachgelagerter Produkte: &#8220;Wohin Ihr Produkt gegangen ist&#8221;
+    Daten zur Rückverfolgbarkeit nachgelagerter Produkte: “Wohin Ihr Produkt gegangen ist”
   </h3>
 
 
@@ -635,10 +697,10 @@
 
 
 <div class="post-text " id="">
-<h4><span style="font-weight: 300;">Gedruckte Codes wie QR-Codes oder RFID/NFC-Etiketten werden auf Produkten oder logistischen Einheiten angebracht. Wenn ein Gerät sie an bestimmten Punkten in der Lieferkette &#8220;scannt&#8221;, werden die Standortinformationen in ein Rückverfolgbarkeitssystem hochgeladen. Für dieses Scannen werden zunehmend Smartphones und Tablets mit mobilen Apps eingesetzt. Auch Android-basierte Handheld-Geräte zum Scannen von Barcodes mit mobilen Apps, die mit dem Rückverfolgbarkeitssystem der Marke verbunden sind, werden eingesetzt.</span></h4>
+<h4><span style="font-weight: 300;">Gedruckte Codes wie QR-Codes oder RFID/NFC-Etiketten werden auf Produkten oder logistischen Einheiten angebracht. Wenn ein Gerät sie an bestimmten Punkten in der Lieferkette “scannt”, werden die Standortinformationen in ein Rückverfolgbarkeitssystem hochgeladen. Für dieses Scannen werden zunehmend Smartphones und Tablets mit mobilen Apps eingesetzt. Auch Android-basierte Handheld-Geräte zum Scannen von Barcodes mit mobilen Apps, die mit dem Rückverfolgbarkeitssystem der Marke verbunden sind, werden eingesetzt.</span></h4>
 <p><span style="font-weight: 300;">Das Rückverfolgbarkeitssystem zeigt nur die letzte Station an, an der ein Produkt oder eine logistische Einheit gescannt wurde. Dieser Ansatz schafft ein Gleichgewicht zwischen der Nützlichkeit der Daten und akzeptablen Kosten für die meisten Produktkategorien. Zu den scannerbasierten Lösungen gehören QR-Codes, die kostengünstig gedruckt werden, und RFIDs, die zwar im Vergleich zu gedruckten Codes immer noch relativ teuer sind, aber in den letzten Jahren erheblich gesunken sind und in den Lieferketten für diesen Anwendungsfall immer häufiger zum Einsatz kommen.</span></p>
 <h4><span style="font-weight: 300;"><b>GPS- oder Standortverfolgung in Echtzeit (auch bekannt als aktive Verfolgung)</b></span></h4>
-<p><span style="font-weight: 300;">Das Produkt oder die logistische Einheit sendet seinen Standort regelmäßig, z. B. stündlich, über eine Mobilfunk- oder Satellitendatenverbindung aus. Dazu wird in der Regel ein kleiner Computer oder Chip auf dem Produkt oder der logistischen Einheit (Container, Palette, Kiste) angebracht. Diese Geräte müssen nicht von einem Gerät oder einer Person &#8220;gescannt&#8221; werden, damit die Daten generiert werden können, daher der Begriff &#8220;aktive Verfolgung&#8221;.</span></p>
+<p><span style="font-weight: 300;">Das Produkt oder die logistische Einheit sendet seinen Standort regelmäßig, z. B. stündlich, über eine Mobilfunk- oder Satellitendatenverbindung aus. Dazu wird in der Regel ein kleiner Computer oder Chip auf dem Produkt oder der logistischen Einheit (Container, Palette, Kiste) angebracht. Diese Geräte müssen nicht von einem Gerät oder einer Person “gescannt” werden, damit die Daten generiert werden können, daher der Begriff “aktive Verfolgung”.</span></p>
 <p><span style="font-weight: 300;">Die Geräte können bis zu 100 US-Dollar und mehr kosten und es fallen monatliche globale Datengebühren an. Daher werden sie eher bei hochwertigen Produkten, bei höherwertigen logistischen Einheiten wie Frachtcontainern oder nur bei einem kleinen Teil der untersuchten Lieferkette eingesetzt. Um die Implementierung kosteneffizient zu gestalten, können die Unternehmen nach jeder Fahrt ein Verfahren zur Erfassung der Einheiten einführen.</span></p>
 <p><span style="font-weight: 300;">Nachdem wir nun wissen, welche Art von Daten wir durch die Rückverfolgbarkeit von Produkten erhalten können, werden wir im nächsten Abschnitt die für die Rückverfolgbarkeit verwendeten Technologien untersuchen.</span></p>
 </div>
@@ -738,7 +800,7 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Vorteile</td>
-              <td class="post-table__cell">&#8211; Kostengünstige Anwendung in großem Maßstab &#8211; niedrige Druckbarrieren.</td>
+              <td class="post-table__cell">– Kostengünstige Anwendung in großem Maßstab – niedrige Druckbarrieren.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
@@ -758,7 +820,7 @@
 
 <div class="post-text " id="">
 <p class="has-gray-24-background-color has-background"><b>1D-Strichcodes</b></p>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 
 
@@ -808,19 +870,19 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Beschreibung</td>
-              <td class="post-table__cell">&#8211; Kann Dutzende von Zeichen speichern.	
+              <td class="post-table__cell">– Kann Dutzende von Zeichen speichern.	
 
 </td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Viele Normen und Größen, auch solche mit globalen Kennungen.
+              <td class="post-table__cell">– Viele Normen und Größen, auch solche mit globalen Kennungen.
 
 </td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Kann GS1/GTIN oder interoperable Standards verwenden.</td>
+              <td class="post-table__cell">– Kann GS1/GTIN oder interoperable Standards verwenden.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Verwendet für</td>
@@ -828,35 +890,35 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Vorteile</td>
-              <td class="post-table__cell">&#8211; Viele interoperable Standards, wie GS1/GTIN</td>
+              <td class="post-table__cell">– Viele interoperable Standards, wie GS1/GTIN</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Kann mit einer Vielzahl von professionellen Handscannern gescannt werden.</td>
+              <td class="post-table__cell">– Kann mit einer Vielzahl von professionellen Handscannern gescannt werden.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
-              <td class="post-table__cell">&#8211; Kleine Verzerrungen, Schmutz oder Abnutzung können die Lesbarkeit beeinträchtigen.</td>
+              <td class="post-table__cell">– Kleine Verzerrungen, Schmutz oder Abnutzung können die Lesbarkeit beeinträchtigen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Oft nicht erkennbar zwischen IT-Systemen.</td>
+              <td class="post-table__cell">– Oft nicht erkennbar zwischen IT-Systemen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Kann einen großen Fußabdruck auf der Verpackung hinterlassen.</td>
+              <td class="post-table__cell">– Kann einen großen Fußabdruck auf der Verpackung hinterlassen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Sie benötigen ein spezielles Gerät oder eine App zum Scannen.</td>
+              <td class="post-table__cell">– Sie benötigen ein spezielles Gerät oder eine App zum Scannen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Von den Kunden auf dem Markt nicht leicht zu scannen.</td>
+              <td class="post-table__cell">– Von den Kunden auf dem Markt nicht leicht zu scannen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Untergang, ersetzt durch QR-Codes.</td>
+              <td class="post-table__cell">– Untergang, ersetzt durch QR-Codes.</td>
           </tr>
     </tbody>
     </table>
@@ -929,15 +991,15 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Beschreibung</td>
-              <td class="post-table__cell">&#8211; Kleiner 2D-Code, der aus jedem Winkel gescannt werden kann.</td>
+              <td class="post-table__cell">– Kleiner 2D-Code, der aus jedem Winkel gescannt werden kann.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Viele Normen und Größen.</td>
+              <td class="post-table__cell">– Viele Normen und Größen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Kann Tausende von Zeichen speichern.</td>
+              <td class="post-table__cell">– Kann Tausende von Zeichen speichern.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Verwendet für</td>
@@ -945,23 +1007,23 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Vorteile</td>
-              <td class="post-table__cell">&#8211; Nützlich für die Platzierung auf kleinen Teilen oder in Maschinen aufgrund der geringen Größe und der hohen Informationsspeicherung.</td>
+              <td class="post-table__cell">– Nützlich für die Platzierung auf kleinen Teilen oder in Maschinen aufgrund der geringen Größe und der hohen Informationsspeicherung.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Unempfindlich gegen Verformung, Verschmutzung, Abnutzung und Verschleiß.</td>
+              <td class="post-table__cell">– Unempfindlich gegen Verformung, Verschmutzung, Abnutzung und Verschleiß.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Kann einen Link zur Produkt-URL enthalten.</td>
+              <td class="post-table__cell">– Kann einen Link zur Produkt-URL enthalten.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Verwendung in regulierten Branchen mit interoperablen Standards wie GS1/GTIN.</td>
+              <td class="post-table__cell">– Verwendung in regulierten Branchen mit interoperablen Standards wie GS1/GTIN.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
-              <td class="post-table__cell">&#8211; Sie lassen sich nicht leicht mit einem Smartphone scannen und sind daher für die Kunden auf dem Markt nicht leicht zu scannen.</td>
+              <td class="post-table__cell">– Sie lassen sich nicht leicht mit einem Smartphone scannen und sind daher für die Kunden auf dem Markt nicht leicht zu scannen.</td>
           </tr>
     </tbody>
     </table>
@@ -1034,39 +1096,39 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Beschreibung</td>
-              <td class="post-table__cell">&#8211; Kleiner 2D-Code, der aus jedem Winkel gescannt werden kann.</td>
+              <td class="post-table__cell">– Kleiner 2D-Code, der aus jedem Winkel gescannt werden kann.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Kann Tausende von Zeichen speichern.</td>
+              <td class="post-table__cell">– Kann Tausende von Zeichen speichern.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Verwendet für</td>
-              <td class="post-table__cell">&#8211; Durchgängige Rückverfolgbarkeit von Teilen, Produkten, Kartons, Kisten und Paletten.</td>
+              <td class="post-table__cell">– Durchgängige Rückverfolgbarkeit von Teilen, Produkten, Kartons, Kisten und Paletten.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Ermöglicht die Rückverfolgbarkeit bis zum Kunden.</td>
+              <td class="post-table__cell">– Ermöglicht die Rückverfolgbarkeit bis zum Kunden.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Vorteile</td>
-              <td class="post-table__cell">&#8211; Sie werden bereits von Milliarden von Menschen im täglichen Leben genutzt.</td>
+              <td class="post-table__cell">– Sie werden bereits von Milliarden von Menschen im täglichen Leben genutzt.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Nützlich für die Platzierung auf kleinen Teilen oder in Maschinen aufgrund der geringen Größe und der hohen Informationsspeicherung.</td>
+              <td class="post-table__cell">– Nützlich für die Platzierung auf kleinen Teilen oder in Maschinen aufgrund der geringen Größe und der hohen Informationsspeicherung.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Unempfindlich gegen Verformung, Verschmutzung, Abnutzung und Verschleiß.</td>
+              <td class="post-table__cell">– Unempfindlich gegen Verformung, Verschmutzung, Abnutzung und Verschleiß.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Kann einen Link zur Produkt-URL enthalten.</td>
+              <td class="post-table__cell">– Kann einen Link zur Produkt-URL enthalten.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Verwendung in regulierten Branchen mit interoperablen Standards wie GS1/GTIN.</td>
+              <td class="post-table__cell">– Verwendung in regulierten Branchen mit interoperablen Standards wie GS1/GTIN.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
@@ -1145,35 +1207,35 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Beschreibung</td>
-              <td class="post-table__cell">&#8211; Kleiner Chip, der keine Batterie benötigt.</td>
+              <td class="post-table__cell">– Kleiner Chip, der keine Batterie benötigt.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Nutzt Funkwellen, um sich selbst einzuschalten und Daten an einen Empfänger zurückzusenden, wenn er gescannt wird.</td>
+              <td class="post-table__cell">– Nutzt Funkwellen, um sich selbst einzuschalten und Daten an einen Empfänger zurückzusenden, wenn er gescannt wird.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Verwendet für</td>
-              <td class="post-table__cell">&#8211; Rückverfolgbarkeit von Teilen, Kisten und Produkten.</td>
+              <td class="post-table__cell">– Rückverfolgbarkeit von Teilen, Kisten und Produkten.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Rückverfolgbarkeit des Versands.</td>
+              <td class="post-table__cell">– Rückverfolgbarkeit des Versands.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Höherwertige Produkte, einschließlich Luxusmode.</td>
+              <td class="post-table__cell">– Höherwertige Produkte, einschließlich Luxusmode.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Vorteile</td>
-              <td class="post-table__cell">&#8211; Kann die Kosten und den Zeitaufwand für die Kalibrierung von optischen Scannern für 2D-Barcodes reduzieren, da sie sich nur in der Nähe befinden müssen und keine Sichtverbindung erforderlich ist.</td>
+              <td class="post-table__cell">– Kann die Kosten und den Zeitaufwand für die Kalibrierung von optischen Scannern für 2D-Barcodes reduzieren, da sie sich nur in der Nähe befinden müssen und keine Sichtverbindung erforderlich ist.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
-              <td class="post-table__cell">&#8211; Noch nicht oft oder leicht von Verbrauchern oder Kunden gescannt, daher nicht geeignet, um endgültige Route-to-Market-Daten zu erhalten. Erfordert oft eine spezielle mobile App.</td>
+              <td class="post-table__cell">– Noch nicht oft oder leicht von Verbrauchern oder Kunden gescannt, daher nicht geeignet, um endgültige Route-to-Market-Daten zu erhalten. Erfordert oft eine spezielle mobile App.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Erheblich teurer pro Einheit als gedruckte (markierte) Codes.</td>
+              <td class="post-table__cell">– Erheblich teurer pro Einheit als gedruckte (markierte) Codes.</td>
           </tr>
     </tbody>
     </table>
@@ -1246,15 +1308,15 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Beschreibung</td>
-              <td class="post-table__cell">&#8211; Tag oder Chip, der aktiv Daten aussendet.</td>
+              <td class="post-table__cell">– Tag oder Chip, der aktiv Daten aussendet.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Verwendet für</td>
-              <td class="post-table__cell">&#8211; Verfolgung von logistischen Einheiten, hochwertigen Gütern und Produkten</td>
+              <td class="post-table__cell">– Verfolgung von logistischen Einheiten, hochwertigen Gütern und Produkten</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Dient der Bestandsverwaltung im Lager.</td>
+              <td class="post-table__cell">– Dient der Bestandsverwaltung im Lager.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Vorteile</td>
@@ -1262,15 +1324,15 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
-              <td class="post-table__cell">&#8211; Hohe Investitionskosten für Scan-Gateways und Kosten pro Einheit</td>
+              <td class="post-table__cell">– Hohe Investitionskosten für Scan-Gateways und Kosten pro Einheit</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Die Einheiten müssen in der Lieferkette kontrollierte, vorhersehbare Zonen durchlaufen, um gescannt zu werden.</td>
+              <td class="post-table__cell">– Die Einheiten müssen in der Lieferkette kontrollierte, vorhersehbare Zonen durchlaufen, um gescannt zu werden.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Es muss ein Verfahren zur Rückforderung am Ende der Reise vorhanden sein.</td>
+              <td class="post-table__cell">– Es muss ein Verfahren zur Rückforderung am Ende der Reise vorhanden sein.</td>
           </tr>
     </tbody>
     </table>
@@ -1337,15 +1399,15 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Beschreibung</td>
-              <td class="post-table__cell">&#8211; Tag oder Chip, der aktiv Daten sendet und in einem größeren Radius als ein BLE-Chip empfangen werden kann.</td>
+              <td class="post-table__cell">– Tag oder Chip, der aktiv Daten sendet und in einem größeren Radius als ein BLE-Chip empfangen werden kann.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Verwendet für</td>
-              <td class="post-table__cell">&#8211; Verfolgung von logistischen Einheiten, hochwertigen Gütern und Produkten</td>
+              <td class="post-table__cell">– Verfolgung von logistischen Einheiten, hochwertigen Gütern und Produkten</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Dient der Bestandsverwaltung im Lager.</td>
+              <td class="post-table__cell">– Dient der Bestandsverwaltung im Lager.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Vorteile</td>
@@ -1353,23 +1415,23 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
-              <td class="post-table__cell">&#8211; Hohe Investitionskosten für Scan-Gateways und Kosten pro Einheit</td>
+              <td class="post-table__cell">– Hohe Investitionskosten für Scan-Gateways und Kosten pro Einheit</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Groß, nicht auf viele Produkte direkt anwendbar.</td>
+              <td class="post-table__cell">– Groß, nicht auf viele Produkte direkt anwendbar.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Die Einheiten müssen in der Lieferkette kontrollierte, vorhersehbare Zonen durchlaufen, um gescannt zu werden.</td>
+              <td class="post-table__cell">– Die Einheiten müssen in der Lieferkette kontrollierte, vorhersehbare Zonen durchlaufen, um gescannt zu werden.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Schwierig für den Endbenutzer zu scannen.</td>
+              <td class="post-table__cell">– Schwierig für den Endbenutzer zu scannen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Es muss ein Verfahren zur Rückforderung am Ende der Reise vorhanden sein.</td>
+              <td class="post-table__cell">– Es muss ein Verfahren zur Rückforderung am Ende der Reise vorhanden sein.</td>
           </tr>
     </tbody>
     </table>
@@ -1446,15 +1508,15 @@
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell">Nachteile</td>
-              <td class="post-table__cell">&#8211; Hohe Kosten pro Einheit und monatliche Datenkosten.</td>
+              <td class="post-table__cell">– Hohe Kosten pro Einheit und monatliche Datenkosten.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Groß, nicht bequem oder machbar, auf viele Produkte direkt zu setzen.</td>
+              <td class="post-table__cell">– Groß, nicht bequem oder machbar, auf viele Produkte direkt zu setzen.</td>
           </tr>
       <tr class="post-table__row">
               <td class="post-table__cell"></td>
-              <td class="post-table__cell">&#8211; Es muss ein Verfahren zur Rückforderung am Ende der Reise vorhanden sein.</td>
+              <td class="post-table__cell">– Es muss ein Verfahren zur Rückforderung am Ende der Reise vorhanden sein.</td>
           </tr>
     </tbody>
     </table>
@@ -1486,7 +1548,7 @@
 <p><!-- wp:paragraph --></p>
 <p><span style="font-weight: 300;">Bei der Planung eines Rückverfolgbarkeitsprojekts und der Wahl zwischen eindeutigen Identifikatoren wie QR-Codes, Data-Matrix oder RFID müssen Sie die folgenden Fragen berücksichtigen:</span></p>
 <p><span style="font-weight: 300;"><b>Was ist Ihr Anwendungsfall?</b> Für die Rückverfolgbarkeit bis zum Endkunden werden QR-Codes, NFC und RFID immer beliebter, da sie kostengünstig sind und von jedem in der Lieferkette <i>und</i> dem Kunden leicht gescannt werden können, um Rückverfolgbarkeitsdaten bis zum Markt zu liefern. Data-Matrix-Codes sind zwar für die interne Rückverfolgbarkeit oder die Rückverfolgbarkeit aus Gründen der Einhaltung von Vorschriften sehr beliebt, können aber von den Kunden nicht leicht gescannt werden und bieten daher keine vollständigen Informationen über den Weg zum Markt und zum Endkunden.</span></p>
-<p><span style="font-weight: 300;"><b>Was sind die Vor- und Nachteile von QR-Codes im Vergleich zu RFID und NFC für Produktverpackungen? </b>QR-Codes sind im Allgemeinen die kostengünstigste Option und können oft im Rahmen Ihres bestehenden Druck- und Verpackungsprozesses gedruckt werden. NFC und RFID sind teurer &#8211; es handelt sich um Chips, die Hardwarekosten verursachen und fast immer mit einem speziellen Verfahren auf die Verpackung aufgebracht werden müssen. RFID und NFC werden zunehmend auf höherwertigen Artikeln und auf Kartons, Kisten und Paletten für bestimmte Produktkategorien und Lieferketten eingesetzt, bei denen die Verwendung von Inline-Vision oder Handscannern zum Scannen von QR-Codes unpraktisch ist.</span></p>
+<p><span style="font-weight: 300;"><b>Was sind die Vor- und Nachteile von QR-Codes im Vergleich zu RFID und NFC für Produktverpackungen? </b>QR-Codes sind im Allgemeinen die kostengünstigste Option und können oft im Rahmen Ihres bestehenden Druck- und Verpackungsprozesses gedruckt werden. NFC und RFID sind teurer – es handelt sich um Chips, die Hardwarekosten verursachen und fast immer mit einem speziellen Verfahren auf die Verpackung aufgebracht werden müssen. RFID und NFC werden zunehmend auf höherwertigen Artikeln und auf Kartons, Kisten und Paletten für bestimmte Produktkategorien und Lieferketten eingesetzt, bei denen die Verwendung von Inline-Vision oder Handscannern zum Scannen von QR-Codes unpraktisch ist.</span></p>
 <p><!-- /wp:paragraph --></p>
 </div>
 
@@ -1563,8 +1625,8 @@
 
 <div class="post-text " id="">
 <p><!-- wp:paragraph --></p>
-<p><span style="font-weight: 300;">Für die Rückverfolgbarkeit auf Einheitsebene muss der Identifikator &#8211; sei es ein RFID-, NFC-, QR-Code, eine Datamatrix oder ein Barcode &#8211; eine serialisierte (eindeutige) Nummer oder einen Code speichern, die bzw. der nur einem einzigen Produkt oder Teil zugeordnet werden kann<b>.</b></span></p>
-<p><span style="font-weight: 300;">&#8220;<b>Serialisierung&#8221;</b> ist der Fachausdruck für die Technologie, die für die konfliktfreie Generierung zufälliger, eindeutiger Identifikationsnummern für Produkte und Teile in großen Mengen verwendet wird. Aufgrund der Komplexität, die mit der sicheren Generierung dieser Nummern in großem Umfang verbunden ist, werden diese Codes in der Regel von einem ERP-System oder einem speziellen Rückverfolgbarkeitssystem erzeugt.</span></p>
+<p><span style="font-weight: 300;">Für die Rückverfolgbarkeit auf Einheitsebene muss der Identifikator – sei es ein RFID-, NFC-, QR-Code, eine Datamatrix oder ein Barcode – eine serialisierte (eindeutige) Nummer oder einen Code speichern, die bzw. der nur einem einzigen Produkt oder Teil zugeordnet werden kann<b>.</b></span></p>
+<p><span style="font-weight: 300;">“<b>Serialisierung”</b> ist der Fachausdruck für die Technologie, die für die konfliktfreie Generierung zufälliger, eindeutiger Identifikationsnummern für Produkte und Teile in großen Mengen verwendet wird. Aufgrund der Komplexität, die mit der sicheren Generierung dieser Nummern in großem Umfang verbunden ist, werden diese Codes in der Regel von einem ERP-System oder einem speziellen Rückverfolgbarkeitssystem erzeugt.</span></p>
 <p><!-- /wp:paragraph --></p>
 </div>
 
@@ -1592,10 +1654,10 @@
 <p><!-- wp:paragraph --></p>
 <p><span style="font-weight: 300;">Zu den analogen Druckern für Produktverpackungen, die den Druck von serialisierten (eindeutigen) Codes nicht direkt unterstützen, gehören:</span></p>
 <ul>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Flexodruck</b> &#8211; Eine flexible Photopolymer-Druckplatte, die um einen Zylinder gewickelt wird.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Offsetdruck</b> &#8211; Direkte oder indirekte Übertragung von Druckfarbe auf den Bedruckstoff über Walzen, meist für flache Bedruckstoffe und Papier.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Rotationstiefdruck</b> &#8211; Verwendung von Gravuren auf Metallplatten.</span></li>
-<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Flexotiefdruck</b> &#8211; Ähnlich wie der Rotationstiefdruck, aber mit flexiblem Material auf der Druckplatte.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Flexodruck</b> – Eine flexible Photopolymer-Druckplatte, die um einen Zylinder gewickelt wird.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Offsetdruck</b> – Direkte oder indirekte Übertragung von Druckfarbe auf den Bedruckstoff über Walzen, meist für flache Bedruckstoffe und Papier.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Rotationstiefdruck</b> – Verwendung von Gravuren auf Metallplatten.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Flexotiefdruck</b> – Ähnlich wie der Rotationstiefdruck, aber mit flexiblem Material auf der Druckplatte.</span></li>
 </ul>
 <p><span style="font-weight: 300;">Einige Digitaldrucker, einschließlich digitaler Tintenstrahldrucker, können nur einfache Datamatrix- oder statische Codes drucken und sind nicht in der Lage, serialisierte QR-Codes zu drucken.</span></p>
 <p><span style="font-weight: 300;"><b>Wenn Sie oder Ihr Druckpartner einen analogen Drucker für Etiketten verwenden, ist ein hybrides Druckverfahren eine mögliche Lösung für das Aufbringen von serialisierten Codes auf Produkte für die Rückverfolgung auf Stückebene</b>.</span></p>
@@ -1642,7 +1704,7 @@
 
 <div class="post-text " id="">
 <ol>
-<li><span style="font-weight: 300;"><b>Aktivierung von Codes</b> &#8211; Das Scansystem &#8220;aktiviert&#8221; einen Code und macht ihn für die Rückverfolgbarkeit, den Fälschungsschutz oder die Kundenbindung nutzbar. Viele Marken möchten die Codeaktivierung kontrollieren, um zu verhindern, dass Etiketten auf den Markt gelangen. Dies ist besonders wichtig, wenn die Produktetiketten von einem Partner geliefert werden, was häufig der Fall ist. Es gibt auch abrechnungsrelevante Gründe für die Code-Aktivierung, da Code-Anbieter ihre Preise oft auf der Grundlage des verwendeten Volumens festlegen.</span></li>
+<li><span style="font-weight: 300;"><b>Aktivierung von Codes</b> – Das Scansystem “aktiviert” einen Code und macht ihn für die Rückverfolgbarkeit, den Fälschungsschutz oder die Kundenbindung nutzbar. Viele Marken möchten die Codeaktivierung kontrollieren, um zu verhindern, dass Etiketten auf den Markt gelangen. Dies ist besonders wichtig, wenn die Produktetiketten von einem Partner geliefert werden, was häufig der Fall ist. Es gibt auch abrechnungsrelevante Gründe für die Code-Aktivierung, da Code-Anbieter ihre Preise oft auf der Grundlage des verwendeten Volumens festlegen.</span></li>
 </ol>
 </div>
 
@@ -1656,8 +1718,8 @@
 <div class="post-text " id="">
 <p><!-- wp:paragraph --></p>
 <ol start="2">
-<li><span style="font-weight: 300;"><b>Aggregation und Datenzuordnung</b> &#8211; Die Produkte werden in Kartons, Kisten und Paletten in der Verpackungslinie platziert, und diese logistischen Einheiten selbst sind mit verschiedenen Codes oder Identifikatoren gekennzeichnet, häufig mit 1D-Barcodes. Dieser Prozess der Gruppierung von Produkten innerhalb logistischer Einheiten wird als &#8220;Aggregation&#8221; bezeichnet. Wenn das System, das den eindeutigen Produktidentifikator generiert, nicht mit dem System identisch ist, das die Barcodes für die logistischen Einheiten generiert, muss eine Datenintegration zwischen diesen beiden Systemen erfolgen, um die Rückverfolgbarkeit des Produkts zu ermöglichen.</span></li>
-<li><span style="font-weight: 300;"><b>Aktualisierung von Standort- und anderen Daten entlang der Lieferkette</b> &#8211; Unternehmen scannen Codes auf Kartons, Kisten oder Paletten, wenn diese in die Lager und Vertriebszentren ein- und ausgehen. Dank der Aggregation (Schritt zwei oben) ist es möglich, das Produkt in der Lieferkette auf der Grundlage der Scans der logistischen Einheit zu verfolgen, ohne einzelne Produkte scannen zu müssen.</span></li>
+<li><span style="font-weight: 300;"><b>Aggregation und Datenzuordnung</b> – Die Produkte werden in Kartons, Kisten und Paletten in der Verpackungslinie platziert, und diese logistischen Einheiten selbst sind mit verschiedenen Codes oder Identifikatoren gekennzeichnet, häufig mit 1D-Barcodes. Dieser Prozess der Gruppierung von Produkten innerhalb logistischer Einheiten wird als “Aggregation” bezeichnet. Wenn das System, das den eindeutigen Produktidentifikator generiert, nicht mit dem System identisch ist, das die Barcodes für die logistischen Einheiten generiert, muss eine Datenintegration zwischen diesen beiden Systemen erfolgen, um die Rückverfolgbarkeit des Produkts zu ermöglichen.</span></li>
+<li><span style="font-weight: 300;"><b>Aktualisierung von Standort- und anderen Daten entlang der Lieferkette</b> – Unternehmen scannen Codes auf Kartons, Kisten oder Paletten, wenn diese in die Lager und Vertriebszentren ein- und ausgehen. Dank der Aggregation (Schritt zwei oben) ist es möglich, das Produkt in der Lieferkette auf der Grundlage der Scans der logistischen Einheit zu verfolgen, ohne einzelne Produkte scannen zu müssen.</span></li>
 </ol>
 <p><span style="font-weight: 300;">Ein <a href="https://www.scantrust.de/supply-chain-traceability-solutions/">Anbieter von Rückverfolgbarkeitslösungen</a> kann Ihnen helfen, den richtigen Anbieter von Scansystemen für Ihre Produktionslinien zu finden. Zu den Anbietern von Inline-Scansystemen gehören <a href="https://www.laetus.com/en/">Laetus</a>, <a href="https://www.datalogic.com/">Datalogic</a>, <a href="https://www.cognex.com/">Cognex</a> und <a href="https://www.lakeimage.com/">Lake Image</a>.</span></p>
 <p><!-- /wp:paragraph --></p>
@@ -1726,13 +1788,13 @@
       max-width: none;
       text-align: left;
     ">
-    In welche &#8220;Ebene&#8221; des ISA 95 Rahmenschichtenmodells fällt ein Produktrückverfolgbarkeitssystem?
+    In welche “Ebene” des ISA 95 Rahmenschichtenmodells fällt ein Produktrückverfolgbarkeitssystem?
   </h4>
 
 
 <div class="post-text " id="">
 <p><span style="font-weight: 300;">Systeme zur durchgängigen Rückverfolgbarkeit von Produkten gelten als Lösungen der Ebene 5 im <a href="https://www.plm.automation.siemens.com/global/en/our-story/glossary/isa-95-framework-and-layers/53244">Schichtenmodell des ISA 95 Framework</a> für Technologie und Geschäftsprozesse in der Fertigung. Sie verbrauchen und verbinden Daten über das gesamte Lieferkettennetzwerk, während sie auch vertikal mit Lösungen der Ebenen 0 bis 4 durch ERP, MES und andere IT-Systeme integriert werden.</span></p>
-<p><span style="font-weight: 300;">Die verschiedenen Teile der Rückverfolgbarkeitstechnologie fallen in die folgenden Ebenen des ISA 95-Rahmens (L&#8217;s):</span></p>
+<p><span style="font-weight: 300;">Die verschiedenen Teile der Rückverfolgbarkeitstechnologie fallen in die folgenden Ebenen des ISA 95-Rahmens (L’s):</span></p>
 <ul>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Lösungen der Ebenen 0 bis 3</b> beziehen sich auf physische Aktivitäten (z. B. Montage) innerhalb des Produktherstellungsprozesses. Die Produktdaten aus diesen Ebenen werden in der Regel in die nächste Ebene, eine Lösung der Ebene 4, eingespeist.</span></li>
 <li style="font-weight: 400;" aria-level="1"><span style="font-weight: 300;"><b>Layer-4-Lösungen</b> beziehen sich auf Systeme wie ERPs, die Produkte vom Herstellungs- und Verpackungsprozess bis zum Versand zurückverfolgen, aber nicht in die nachgelagerte Lieferkette zwischen den Beteiligten.</span></li>
@@ -2121,4 +2183,6 @@ Singapore 117439</p>
 		<script type="text/javascript" src="https://www.scantrust.de/wp-content/themes/site/static/js/app.b7d74e14be9d4a5fd93f.js?ver=1" id="app-js"></script>
 
       </body>
+
+<!-- Parsed with iubenda experimental class in 0.0134 sec. -->
 </html>

@@ -55,15 +55,77 @@
 	<!-- / Yoast SEO plugin. -->
 
 
+<link rel="dns-prefetch" href="//cdn.iubenda.com">
 <link rel="stylesheet" id="classic-theme-styles-css" href="https://www.scantrust.de/wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="app-css" href="https://www.scantrust.de/wp-content/themes/site/static/css/app.b7d74e14be9d4a5fd93f.css?ver=1" type="text/css" media="all">
+
+<script type="text/javascript" class=" _iub_cs_skip" id="iubenda-head-inline-scripts-0">var _iub = _iub || [];
+  _iub.csConfiguration = {
+    askConsentAtCookiePolicyUpdate: true,
+    countryDetection: true,
+    enableLgpd: true,
+    enableUspr: true,
+    floatingPreferencesButtonDisplay: "bottom-left",
+    lang: "de",
+    lgpdAppliesGlobally: false,
+    perPurposeConsent: true,
+    siteId: 3025578,
+    whitelabel: false,
+    cookiePolicyId: 65818508,
+    banner: {
+      acceptButtonDisplay: true,
+      closeButtonDisplay: false,
+      customizeButtonDisplay: true,
+      explicitWithdrawal: true,
+      fontSizeBody: "12px",
+      listPurposes: true,
+      position: "float-bottom-left",
+      rejectButtonDisplay: true,
+      showPurposesToggles: true,
+      acceptButtonCaption: "Akzeptieren",
+      content:
+        'Durch Klicken auf "Akzeptieren" erklären Sie sich mit der Speicherung von Cookies auf Ihrem Gerät einverstanden, um die Navigation auf der Website zu verbessern, die Nutzung der Website zu analysieren und unsere Marketingmaßnahmen zu unterstützen.',
+    },
+    "callback": {
+            onPreferenceExpressedOrNotNeeded: function(preference) {
+                dataLayer.push({
+                    iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+                });
+                if (!preference) {
+                    dataLayer.push({
+                        event: "iubenda_preference_not_needed"
+                    });
+                } else {
+                    if (preference.consent === true) {
+                        dataLayer.push({
+                            event: "iubenda_consent_given"
+                        });
+                    } else if (preference.consent === false) {
+                        dataLayer.push({
+                            event: "iubenda_consent_rejected"
+                        });
+                    } else if (preference.purposes) {
+                        for (var purposeId in preference.purposes) {
+                            if (preference.purposes[purposeId]) {
+                                dataLayer.push({
+                                    event: "iubenda_consent_given_purpose_" + purposeId
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+  };</script>
+<script type="text/javascript" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/gpp/stub.js?ver=3.5.9" id="iubenda-head-scripts-0-js"></script>
+<script type="text/javascript" charset="UTF-8" async="" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/iubenda_cs.js?ver=3.5.9" id="iubenda-head-scripts-1-js"></script>
 <link rel="https://api.w.org/" href="https://www.scantrust.de/wp-json/">
 <link rel="alternate" type="application/json" href="https://www.scantrust.de/wp-json/wp/v2/posts/2684">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.scantrust.de/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.1.1">
 <link rel="shortlink" href="https://www.scantrust.de/?p=2684">
 <link rel="alternate" type="application/json+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fdigitaler-produktpass-eu-regulierungen-fur-ruckverfolgbarkeit-der-produkte%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fdigitaler-produktpass-eu-regulierungen-fur-ruckverfolgbarkeit-der-produkte%2F#038;format=xml">
+<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fdigitaler-produktpass-eu-regulierungen-fur-ruckverfolgbarkeit-der-produkte%2F&amp;format=xml">
 		<meta name="ssp-url">
 		<meta name="ssp-origin-url" content="aHR0cHM6Ly9jbXMuc2NhbnRydXN0LmRl">
 
@@ -149,7 +211,7 @@ Zu den Produktinformationen, die offengelegt werden sollten, hat das <a href="ht
 
 <figure class="quote" id="">
     <blockquote class="quote__quote" style="color: #000;">
-<p><em>&#8220;Der Digitale Produktpass kann Informationen über die Konformität eines Produkts mit den EU-Vorschriften, die Zusammensetzung, die Herkunft der Komponenten sowie über Reparatur- und Demontage Möglichkeiten liefern.&#8221;</em></p>
+<p><em>“Der Digitale Produktpass kann Informationen über die Konformität eines Produkts mit den EU-Vorschriften, die Zusammensetzung, die Herkunft der Komponenten sowie über Reparatur- und Demontage Möglichkeiten liefern.”</em></p>
 </blockquote>
     <figcaption class="quote__reference"></figcaption>
 </figure>
@@ -194,7 +256,7 @@ Zu den Produktinformationen, die offengelegt werden sollten, hat das <a href="ht
       max-width: none;
       text-align: left;
     ">
-    Video &#8211; Vorschriften für den digitalen Produktpass in der EU.
+    Video – Vorschriften für den digitalen Produktpass in der EU.
   </h1>
 
 
@@ -210,10 +272,10 @@ Zu den Produktinformationen, die offengelegt werden sollten, hat das <a href="ht
 <p>3:05 Was ist der rechtliche Rahmen für Digitale Produktpässe?</p>
 <p>7:50: Vorschlag für eine Ökodesign-Verordnung für nachhaltige Produkte und technische Details des EU-Digitalen Produktpasses</p>
 <p>13:30 Digitaler Produktpass für die Batterieindustrie</p>
-<p>18:50 DPP für die Textilindustrie. Was sicherlich ungewiss ist&#8230;</p>
+<p>18:50 DPP für die Textilindustrie. Was sicherlich ungewiss ist…</p>
 <p>20:05 DPP für Bauprodukte.</p>
 <p>22:05 Was bedeutet dieser Paradigmenwechsel für Ihr Unternehmen und Ihre Branche?</p>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 
 <div class="button-container">
@@ -242,7 +304,7 @@ Zu den Produktinformationen, die offengelegt werden sollten, hat das <a href="ht
 <div class="post-text " id="">
 <p><span style="font-weight: 400;">Ein Digitaler Produktpass ist ein digitales Profil für ein einzelnes Produkt, das Informationen über seine Herkunft und die Geschichte der Lieferkette, die Nachhaltigkeit der Produktion, die Authentizität und andere geschäftliche Informationen wie die Registrierung der Garantie enthält.</span></p>
 <p><span style="font-weight: 400;">Mit der Forderung nach Digitalen Produktpässen verfolgt die EU das Ziel, die Transparenz und Rückverfolgbarkeit von Produkten über ihre gesamte Wertschöpfungskette hinweg zu gewährleisten und damit den Übergang der EU zu einer </span><a href="https://ellenmacarthurfoundation.org/topics/circular-economy-introduction/overview"><span style="font-weight: 400;">Kreislaufwirtschaft</span></a><span style="font-weight: 400;"> zu unterstützen.</span></p>
-<p><span style="font-weight: 400;">Jedes physische Produkt &#8211; z. B. ein Kleidungsstück oder eine Autobatterie &#8211; hat seinen eigenen eindeutigen Digitalen Produktpass mit Informationen, die dem Produkt auf Chargen- und Einheitsebene zugeordnet sind. Ein Pass identifiziert ein Produkt eindeutig, auch wenn es Millionen von ähnlichen Produkten gibt.</span></p>
+<p><span style="font-weight: 400;">Jedes physische Produkt – z. B. ein Kleidungsstück oder eine Autobatterie – hat seinen eigenen eindeutigen Digitalen Produktpass mit Informationen, die dem Produkt auf Chargen- und Einheitsebene zugeordnet sind. Ein Pass identifiziert ein Produkt eindeutig, auch wenn es Millionen von ähnlichen Produkten gibt.</span></p>
 </div>
 
 <figure class="post-image" style="text-align: center;" id="">
@@ -421,7 +483,7 @@ Zu den Produktinformationen, die offengelegt werden sollten, hat das <a href="ht
 <p><span style="font-weight: 400;">Einige allgemeine Anforderungen an die Dateneingabe und den Datenschutz werden jedoch bereits festgelegt. Gemäß </span><a href="https://environment.ec.europa.eu/publications/proposal-ecodesign-sustainable-products-regulation_en"><span style="font-weight: 400;">dem Vorschlag der Europäischen Kommission für Ökodesign für nachhaltige Produkte</span></a><span style="font-weight: 400;"> werden folgende allgemeine Anforderungen an einen Digitalen Produktpass gestellt:</span></p>
 <ol>
 <li style="font-weight: 400;" aria-level="1">
-<span style="font-weight: 400;">Der Digitale Produktpass muss mit einem digitalen Datenträger über einen (eindeutigen) Identifikator verbunden sein. Der Datenträger muss der Norm </span><a href="https://www.iso.org/standard/54780.html"><span style="font-weight: 400;">(&#8220;ISO/ICE&#8221;) 15459:2015</span></a><span style="font-weight: 400;"> entsprechen.</span>
+<span style="font-weight: 400;">Der Digitale Produktpass muss mit einem digitalen Datenträger über einen (eindeutigen) Identifikator verbunden sein. Der Datenträger muss der Norm </span><a href="https://www.iso.org/standard/54780.html"><span style="font-weight: 400;">(“ISO/ICE”) 15459:2015</span></a><span style="font-weight: 400;"> entsprechen.</span>
 </li>
 <li style="font-weight: 400;" aria-level="1">
 <span style="font-weight: 400;">Alle Informationen im Produktpass müssen sich auf welchen spezifische Produkt oder die Chargennummer beziehen. Die Informationen müssen folgenden Anforderungen genügen:</span>
@@ -491,13 +553,13 @@ Zu den Produktinformationen, die offengelegt werden sollten, hat das <a href="ht
 <p><span style="font-weight: 400;">Wenn Sie die Datenanforderungen für Ihre Branche anhand des nachstehenden Datenmodells bewerten, können Sie einen Implementierungsplan aufstellen. Es gibt drei Kategorien von Daten, die für einen Digitalen Produktpass erfasst und darin gespeichert werden können:</span></p>
 <ul>
 <li style="font-weight: 400;" aria-level="1">
-<b>Daten zur Rückverfolgbarkeit von Materialien</b><span style="font-weight: 400;"> &#8211; Daten zur Liefer- oder Wertschöpfungskette oder zu Produktbestandteilen/Rohstoffen und Inputs</span>
+<b>Daten zur Rückverfolgbarkeit von Materialien</b><span style="font-weight: 400;"> – Daten zur Liefer- oder Wertschöpfungskette oder zu Produktbestandteilen/Rohstoffen und Inputs</span>
 </li>
 <li style="font-weight: 400;" aria-level="1">
-<b>Nachhaltigkeitsdaten</b><span style="font-weight: 400;"> &#8211; Daten darüber, wie nachhaltig der Produktionsprozess und der Vertrieb des Produkts sind</span>
+<b>Nachhaltigkeitsdaten</b><span style="font-weight: 400;"> – Daten darüber, wie nachhaltig der Produktionsprozess und der Vertrieb des Produkts sind</span>
 </li>
 <li style="font-weight: 400;" aria-level="1">
-<b>Produktspezifische Daten</b><span style="font-weight: 400;"> &#8211; herkömmliche Produktinformationen wie Name, Marke, Modell, Fabrikat usw.</span>
+<b>Produktspezifische Daten</b><span style="font-weight: 400;"> – herkömmliche Produktinformationen wie Name, Marke, Modell, Fabrikat usw.</span>
 </li>
 </ul>
 <p><span style="font-weight: 400;">Jede der oben genannten Kategorien kann weiter in </span><b>dynamische Daten</b><span style="font-weight: 400;"> (Chargen- oder Einheitsebene) oder </span><b>statische</b> <b>Daten </b><span style="font-weight: 400;">(z. B. SKU) unterteilt werden.</span></p>
@@ -634,7 +696,7 @@ Zu den Produktinformationen, die offengelegt werden sollten, hat das <a href="ht
 <b>Traditionelle Cloud-basierte Datenbanken.</b><span style="font-weight: 400;"> Diese könnten Informationen über APIs für jedermann öffentlich zugänglich machen und je nach Akteur in der Wertschöpfungskette unterschiedliche Zugriffsebenen bieten.</span>
 </li>
 <li>
-<b>Blockchains (öffentlich und privat).</b><span style="font-weight: 400;"> Diese können ähnliche Funktionen wie herkömmliche Cloud-basierte Datenbanken bieten, aber auch Funktionen, die es nur bei Blockchains gibt. Einige Akteure der Branche befürworten DPP als idealen Anwendungsfall für Blockchains</span>.&nbsp;</li>
+<b>Blockchains (öffentlich und privat).</b><span style="font-weight: 400;"> Diese können ähnliche Funktionen wie herkömmliche Cloud-basierte Datenbanken bieten, aber auch Funktionen, die es nur bei Blockchains gibt. Einige Akteure der Branche befürworten DPP als idealen Anwendungsfall für Blockchains</span>. </li>
 </ol>
 </div>
 
@@ -729,7 +791,7 @@ Dynamische QR-Codes haben eine Umleitungs-URL, die nach der Anwendung auf dem Pr
               <td class="post-table__cell -borders">Seriennummer</td>
               <td class="post-table__cell -borders">Eine gedruckte Seriennummer, die von einem Produkt zum nächsten eindeutig ist.</td>
               <td class="post-table__cell -borders">Verfolgung auf Einheitsebene. Einfaches Drucken.</td>
-              <td class="post-table__cell -borders">Nur konform, wenn es zusammen mit einer URL zum &#8220;Nachschlagen&#8221; des DPP verwendet wird. Schwer zu scannen in der Wertschöpfungskette, kann die Datenerfassung beeinträchtigen.</td>
+              <td class="post-table__cell -borders">Nur konform, wenn es zusammen mit einer URL zum “Nachschlagen” des DPP verwendet wird. Schwer zu scannen in der Wertschöpfungskette, kann die Datenerfassung beeinträchtigen.</td>
           </tr>
     </tbody>
     </table>
@@ -738,7 +800,7 @@ Dynamische QR-Codes haben eine Umleitungs-URL, die nach der Anwendung auf dem Pr
 
 <div class="post-text " id="">
 <p><span style="font-weight: 400;">Alles in allem zeichnen </span><b>sich QR-Codes</b><span style="font-weight: 400;"> als Datenträger für DPP durch ihre Benutzerfreundlichkeit, Vertrautheit und Kosteneffizienz aus.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 </div>
 
   <h3 id="" class="post-subtitle" style="
@@ -759,25 +821,26 @@ Dynamische QR-Codes haben eine Umleitungs-URL, die nach der Anwendung auf dem Pr
 <p><span style="font-weight: 400;">Durch die </span><a href="https://www.scantrust.com/qr-code-anti-counterfeiting-solutions/#serialized-qr-security"><span style="font-weight: 400;">Serialisierung von</span></a><span style="font-weight: 400;"> QR-Codes (die jeden Code einzigartig macht) können die Daten jedoch einer bestimmten Produkteinheit zugeordnet werden. Dies ist eine Voraussetzung für grundlegende DPP-Anforderungen wie die </span><a href="https://www.scantrust.com/product-traceability-definitive-guide/"><span style="font-weight: 400;">Rückverfolgbarkeit von Produkten</span></a><span style="font-weight: 400;">.</span></p>
 <p><span style="font-weight: 400;">Indem Sie die Ziel-URL im QR-Code dynamisch gestalten (daher der Begriff </span><a href="https://www.scantrust.com/what-is-a-dynamic-qr-code/"><span style="font-weight: 400;">dynamischer QR-Code</span></a><span style="font-weight: 400;">), haben Sie nach dem Druck des Codes wesentlich mehr Flexibilität, um das Erlebnis nach dem Scannen und die angezeigten Informationen zu ändern.</span></p>
 <p><b>QR-Code-Sicherheit im Kontext von DPP</b></p>
-<p><span style="font-weight: 400;">Die meisten QR-Codes sind nicht als sichere Kanäle konzipiert &#8211; sie können leicht kopiert und z. B. auf gefälschte Produkte gedruckt werden. </span><a href="https://www.scantrust.com/qr-code-anti-counterfeiting-solutions/#secure-qr-security"><span style="font-weight: 400;">Sichere QR-Codes</span></a><span style="font-weight: 400;"> können jedoch ein hohes Maß an Sicherheit bieten. Diese QR-Codes enthalten in der Mitte ein Sicherheitsbild, das, wenn der QR-Code kopiert und an anderer Stelle verwendet wird, als Fälschung erkannt werden kann.</span></p>
+<p><span style="font-weight: 400;">Die meisten QR-Codes sind nicht als sichere Kanäle konzipiert – sie können leicht kopiert und z. B. auf gefälschte Produkte gedruckt werden. </span><a href="https://www.scantrust.com/qr-code-anti-counterfeiting-solutions/#secure-qr-security"><span style="font-weight: 400;">Sichere QR-Codes</span></a><span style="font-weight: 400;"> können jedoch ein hohes Maß an Sicherheit bieten. Diese QR-Codes enthalten in der Mitte ein Sicherheitsbild, das, wenn der QR-Code kopiert und an anderer Stelle verwendet wird, als Fälschung erkannt werden kann.</span></p>
 </div>
 
 <div class="post-text " id="">
 <p><b>Die wichtigsten Vorteile der Verwendung von QR-Codes als Datenträger für DPP-Anwendungsfälle</b></p>
 <ol>
 <li>
-<b>QR-Codes sind benutzerfreundlich &#8211; </b><span style="font-weight: 400;">QR-Codes können mit praktisch jedem modernen Smartphone gescannt werden. Bei Barcodes ist dies nicht der Fall, da sie zum Scannen von Daten spezielle Geräte benötigen. NFC-Tags sind noch neu und die Verbraucher gewöhnen sich gerade daran.</span>
+<b>QR-Codes sind benutzerfreundlich – </b><span style="font-weight: 400;">QR-Codes können mit praktisch jedem modernen Smartphone gescannt werden. Bei Barcodes ist dies nicht der Fall, da sie zum Scannen von Daten spezielle Geräte benötigen. NFC-Tags sind noch neu und die Verbraucher gewöhnen sich gerade daran.</span>
 </li>
 <li>
-<b>QR-Codes sind kosteneffizient &#8211; </b><span style="font-weight: 400;">QR-Codes gehören zu den kostengünstigsten Identifizierungsmerkmalen, insbesondere wenn es sich um sichere Codes handelt. QR-Codes lassen sich im Gegensatz zu teuren physischen Kennzeichnungen oder Sicherheitsmerkmalen wie NFC in Ihre bestehenden Verpackungen oder Druckverfahren integrieren.</span>
+<b>QR-Codes sind kosteneffizient – </b><span style="font-weight: 400;">QR-Codes gehören zu den kostengünstigsten Identifizierungsmerkmalen, insbesondere wenn es sich um sichere Codes handelt. QR-Codes lassen sich im Gegensatz zu teuren physischen Kennzeichnungen oder Sicherheitsmerkmalen wie NFC in Ihre bestehenden Verpackungen oder Druckverfahren integrieren.</span>
 </li>
 <li>
-<b>QR-Codes können in Echtzeit angepasst und geändert werden &#8211; </b><span style="font-weight: 400;">Dynamische QR-Codes können Benutzer auf angepasste Zielseiten umleiten, einschließlich solcher, die Informationen zum digitalen Produktpass enthalten, die jederzeit aktualisiert werden können.</span>
+<b>QR-Codes können in Echtzeit angepasst und geändert werden – </b><span style="font-weight: 400;">Dynamische QR-Codes können Benutzer auf angepasste Zielseiten umleiten, einschließlich solcher, die Informationen zum digitalen Produktpass enthalten, die jederzeit aktualisiert werden können.</span>
 </li>
 <li>
-<b>Skalierbarkeit &#8211; </b><span style="font-weight: 400;">Sobald die ersten Druck- oder Etikettierungsintegrationen und -tests abgeschlossen sind, kann ein sicherer QR-Code im Vergleich zu physisch angebrachten eindeutigen Identifikatoren auf eine skalierbarere Weise gedruckt werden.</span>
+<b>Skalierbarkeit – </b><span style="font-weight: 400;">Sobald die ersten Druck- oder Etikettierungsintegrationen und -tests abgeschlossen sind, kann ein sicherer QR-Code im Vergleich zu physisch angebrachten eindeutigen Identifikatoren auf eine skalierbarere Weise gedruckt werden.</span>
 </li>
 <li style="list-style-type: none;">
+</li>
 </ol>
 </div>
 
@@ -814,8 +877,8 @@ Dynamische QR-Codes haben eine Umleitungs-URL, die nach der Anwendung auf dem Pr
 <li data-stringify-indent="0" data-stringify-border="0">Eine Demonstration unserer digitalen Produktkennzeichnungslösung</li>
 </ul>
 <div class="p-rich_text_section">Alle Fragen, die Sie haben, werden wir gerne beantworten.</div>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
+<p> </p>
+<p> </p>
 </div>    <img decoding="async" alt="">
   </div>
   <div class="form-container__form --form">
@@ -908,4 +971,6 @@ Singapore 117439</p>
 		<script type="text/javascript" src="https://www.scantrust.de/wp-content/themes/site/static/js/app.b7d74e14be9d4a5fd93f.js?ver=1" id="app-js"></script>
 
       </body>
+
+<!-- Parsed with iubenda experimental class in 0.0063 sec. -->
 </html>

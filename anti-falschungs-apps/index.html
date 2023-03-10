@@ -47,15 +47,77 @@
 	<!-- / Yoast SEO plugin. -->
 
 
+<link rel="dns-prefetch" href="//cdn.iubenda.com">
 <link rel="stylesheet" id="classic-theme-styles-css" href="https://www.scantrust.de/wp-includes/css/classic-themes.min.css?ver=1" type="text/css" media="all">
 <link rel="stylesheet" id="app-css" href="https://www.scantrust.de/wp-content/themes/site/static/css/app.b7d74e14be9d4a5fd93f.css?ver=1" type="text/css" media="all">
+
+<script type="text/javascript" class=" _iub_cs_skip" id="iubenda-head-inline-scripts-0">var _iub = _iub || [];
+  _iub.csConfiguration = {
+    askConsentAtCookiePolicyUpdate: true,
+    countryDetection: true,
+    enableLgpd: true,
+    enableUspr: true,
+    floatingPreferencesButtonDisplay: "bottom-left",
+    lang: "de",
+    lgpdAppliesGlobally: false,
+    perPurposeConsent: true,
+    siteId: 3025578,
+    whitelabel: false,
+    cookiePolicyId: 65818508,
+    banner: {
+      acceptButtonDisplay: true,
+      closeButtonDisplay: false,
+      customizeButtonDisplay: true,
+      explicitWithdrawal: true,
+      fontSizeBody: "12px",
+      listPurposes: true,
+      position: "float-bottom-left",
+      rejectButtonDisplay: true,
+      showPurposesToggles: true,
+      acceptButtonCaption: "Akzeptieren",
+      content:
+        'Durch Klicken auf "Akzeptieren" erklären Sie sich mit der Speicherung von Cookies auf Ihrem Gerät einverstanden, um die Navigation auf der Website zu verbessern, die Nutzung der Website zu analysieren und unsere Marketingmaßnahmen zu unterstützen.',
+    },
+    "callback": {
+            onPreferenceExpressedOrNotNeeded: function(preference) {
+                dataLayer.push({
+                    iubenda_ccpa_opted_out: _iub.cs.api.isCcpaOptedOut()
+                });
+                if (!preference) {
+                    dataLayer.push({
+                        event: "iubenda_preference_not_needed"
+                    });
+                } else {
+                    if (preference.consent === true) {
+                        dataLayer.push({
+                            event: "iubenda_consent_given"
+                        });
+                    } else if (preference.consent === false) {
+                        dataLayer.push({
+                            event: "iubenda_consent_rejected"
+                        });
+                    } else if (preference.purposes) {
+                        for (var purposeId in preference.purposes) {
+                            if (preference.purposes[purposeId]) {
+                                dataLayer.push({
+                                    event: "iubenda_consent_given_purpose_" + purposeId
+                                });
+                            }
+                        }
+                    }
+                }
+            }
+        }
+  };</script>
+<script type="text/javascript" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/gpp/stub.js?ver=3.5.9" id="iubenda-head-scripts-0-js"></script>
+<script type="text/javascript" charset="UTF-8" async="" class=" _iub_cs_skip" src="//cdn.iubenda.com/cs/iubenda_cs.js?ver=3.5.9" id="iubenda-head-scripts-1-js"></script>
 <link rel="https://api.w.org/" href="https://www.scantrust.de/wp-json/">
 <link rel="alternate" type="application/json" href="https://www.scantrust.de/wp-json/wp/v2/pages/5189">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.scantrust.de/xmlrpc.php?rsd">
 <meta name="generator" content="WordPress 6.1.1">
 <link rel="shortlink" href="https://www.scantrust.de/?p=5189">
 <link rel="alternate" type="application/json+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fanti-falschungs-apps%2F">
-<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fanti-falschungs-apps%2F#038;format=xml">
+<link rel="alternate" type="text/xml+oembed" href="https://www.scantrust.de/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fwww.scantrust.de%2Fanti-falschungs-apps%2F&amp;format=xml">
 		<meta name="ssp-url">
 		<meta name="ssp-origin-url" content="aHR0cHM6Ly9jbXMuc2NhbnRydXN0LmRl">
 
@@ -321,11 +383,11 @@
   <div class="text-image__content --center" style="padding-top: px;padding-right: px;padding-bottom: px;padding-left: px;">
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Einbetten einer Smartphone-basierten Echtheitsprüfung in eine Webseite oder eine mobile Anwendung</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Ihr Kunde kann schnell überprüfen, ob das Produkt oder Dokument echt ist, indem er einfach den sicheren QR-Code scannt. </span><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Unser Authentifizierungstool funktioniert in einem mobilen Browser, in einer nativen App, in WeChat und mehr.</span></p>
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;"><br>
 Prüfen Sie einen sicheren QR-Code in vier Schritten</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <ol style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: ibm-plex-san, sans-serif; line-height: 1; margin-left: 30px;">
 <li style="margin-bottom: 5px;">Scannen Sie einen QR-Code mit einem beliebigen QR-Code-Scanner</li>
 <li style="margin-bottom: 5px;">Weiterleitung zur Authentifizierungsseite</li>
@@ -362,9 +424,9 @@ Prüfen Sie einen sicheren QR-Code in vier Schritten</span></p>
   <div class="text-image__content --right --center" style="padding-top: px;padding-right: px;padding-bottom: px;padding-left: px;">
         <div class="text-image__text " id="">
 <p><span style="font-size: 22px; font-weight: 600; font-family: ibm-plex-sans;">Haben Sie einen Anwendungsfall für Inspektoren? Nutzen Sie unsere Unternehmensanwendung, die speziell für Inspektionen entwickelt wurde.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Verwendung mit Produkten, Dokumenten und Teilen in der Lieferkette mit einem sicheren QR-Code.</span></p>
-<p>&nbsp;</p>
+<p> </p>
 <p><span style="font-weight: 300; color: #3a3a4c; font-size: 20px; font-family: roboto, sans-serif; line-height: 1;">Verwalten und überwachen Sie die Scan-Aufgaben der Inspektoren mit unserem Aufgabenmanager.<br>
 </span></p>
 </div>  </div>
@@ -578,11 +640,11 @@ Prüfen Sie einen sicheren QR-Code in vier Schritten</span></p>
 	<div class="container"></div>
 			
 <div class="post-text " id="">
-<p><span style="font-size: 26px; font-weight: 600; line-height: 1;">&#8220;Die Lösung bietet einen einfachen, schnellen und zuverlässigen Arbeitsablauf.</span></p>
+<p><span style="font-size: 26px; font-weight: 600; line-height: 1;">“Die Lösung bietet einen einfachen, schnellen und zuverlässigen Arbeitsablauf.</span></p>
 </div>
 
 <div class="post-text " id="">
-<p>Wir haben eine spezialisierte Hochsicherheits-Verpackungslösung und waren mit der Integration der Scantrust-Lösung sehr zufrieden. Die sichere QR-Code-Prüflösung bietet einen einfachen, schnellen und zuverlässigen Arbeitsablauf.&#8221;</p>
+<p>Wir haben eine spezialisierte Hochsicherheits-Verpackungslösung und waren mit der Integration der Scantrust-Lösung sehr zufrieden. Die sichere QR-Code-Prüflösung bietet einen einfachen, schnellen und zuverlässigen Arbeitsablauf.”</p>
 </div>
 
 		</div>
@@ -917,4 +979,6 @@ Singapore 117439</p>
 		<script type="text/javascript" src="https://www.scantrust.de/wp-content/themes/site/static/js/app.b7d74e14be9d4a5fd93f.js?ver=1" id="app-js"></script>
 
       </body>
+
+<!-- Parsed with iubenda experimental class in 0.0045 sec. -->
 </html>
