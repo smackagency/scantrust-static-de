@@ -36,13 +36,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
-		<lastmod>2022-10-26T08:49:40+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/Varta-scantrust.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.scantrust.de/case-studies/qr-codes-fur-marketing-campaigns-wie-isdin-skincare-verwendet-connected-packaging/</loc>
 		<lastmod>2022-10-26T08:50:39+00:00</lastmod>
 		<image:image>
@@ -96,6 +89,13 @@
 		<lastmod>2022-10-26T09:03:07+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/ihealth-scantrust-1.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
+		<lastmod>2023-03-27T14:12:02+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/Varta-scantrust.jpeg</image:loc>
 		</image:image>
 	</url>
 </urlset>
