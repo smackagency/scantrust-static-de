@@ -71,13 +71,6 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
-		<lastmod>2023-03-28T02:49:34+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/Varta-scantrust.jpeg</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.scantrust.de/case-studies/qr-code-track-and-trace-mit-anti-counterfeit-packaging-fur-remy-cointreau/</loc>
 		<lastmod>2023-03-28T02:49:56+00:00</lastmod>
 		<image:image>
@@ -96,6 +89,13 @@
 		<lastmod>2023-03-28T02:50:43+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/07/knorr-scantrust.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/case-studies/ruckverfolgbarkeit-der-lieferkette-fur-autobatterien-varta-verfolgt-route-to-market/</loc>
+		<lastmod>2023-04-12T08:17:54+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/08/Varta-Updated_1-1.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
