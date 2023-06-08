@@ -29,17 +29,24 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/weinetiketten-anforderungen-und-e-u-gemeinsame-agrapolitik-reform-2023/</loc>
-		<lastmod>2023-03-28T07:34:09+00:00</lastmod>
+		<loc>https://www.scantrust.de/was-ist-ein-dynamischer-qr-code/</loc>
+		<lastmod>2023-04-05T12:13:47+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/06/dynamic-QR-code-article.jpeg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/eu-weinetikett-anforderungen-2021-2117/</loc>
+		<lastmod>2023-06-07T12:41:40+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/11/e-label-composite.jpg</image:loc>
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/was-ist-ein-dynamischer-qr-code/</loc>
-		<lastmod>2023-04-05T12:13:47+00:00</lastmod>
+		<loc>https://www.scantrust.de/wie-man-qr-codes-elabel-eu-weinetikettierungsgesetz/</loc>
+		<lastmod>2023-06-08T07:48:54+00:00</lastmod>
 		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/06/dynamic-QR-code-article.jpeg</image:loc>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2023/05/EU-wine-label-regulations-1024x1024-2.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
