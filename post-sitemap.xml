@@ -36,17 +36,17 @@
 		</image:image>
 	</url>
 	<url>
-		<loc>https://www.scantrust.de/wie-man-qr-codes-elabel-eu-weinetikettierungsgesetz/</loc>
-		<lastmod>2023-07-13T09:06:05+00:00</lastmod>
-		<image:image>
-			<image:loc>https://www.scantrust.de/wp-content/uploads/2023/05/EU-wine-label-regulations-1024x1024-2.png</image:loc>
-		</image:image>
-	</url>
-	<url>
 		<loc>https://www.scantrust.de/eu-weinetikett-anforderungen-2021-2117/</loc>
 		<lastmod>2023-07-13T09:11:14+00:00</lastmod>
 		<image:image>
 			<image:loc>https://www.scantrust.de/wp-content/uploads/2022/11/e-label-composite.jpg</image:loc>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://www.scantrust.de/wie-man-qr-codes-elabel-eu-weinetikettierungsgesetz/</loc>
+		<lastmod>2023-07-31T14:25:40+00:00</lastmod>
+		<image:image>
+			<image:loc>https://www.scantrust.de/wp-content/uploads/2023/05/EU-wine-label-regulations-1024x1024-2.png</image:loc>
 		</image:image>
 	</url>
 </urlset>
